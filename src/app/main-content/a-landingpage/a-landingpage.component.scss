@@ -22,4 +22,12 @@
 
 .rotatedClass{
     transform: rotate(-90deg);
+    display: flex;
+    align-items: center;
+}
+
+.textAndButtonDivClass{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
