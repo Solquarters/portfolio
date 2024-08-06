@@ -9,21 +9,59 @@
 
 
 .mainImgDivClass{
-    height: 300px;
-    width: 200px;
+    height: 600px;
+    width: 500px;
     border: 1px solid black;
+
+//    background-image: url('../../../assets/img/profile1.png');
+>img{
+    height: 600px;
+    width: 500px;
+    object-fit: contain;
+}
 
 }
 
 
 .welcomeTextDivClass{
     display: flex;
+
+    >h2{
+        font-size: 64px;
+        font-weight: 400;
+        margin: 0px;
+        white-space: nowrap;
+    }
+    >div{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    
+        >h1{
+            margin: 0px;
+            font-size: 90px;
+            font-weight: 700;
+            white-space: nowrap;
+            margin-block-start: 0;
+            margin-block-end: 0;
+        }
+        >h2{
+            font-size: 64px;
+            font-weight: 400;
+            margin: 0px;
+            white-space: nowrap;
+            margin-block-start: 0;
+        margin-block-end: 0;
+        }
+    }
 }
 
 .rotatedClass{
     transform: rotate(-90deg);
     display: flex;
     align-items: center;
+    white-space: nowrap;
+    // font-size: 32px;
 }
 
 .textAndButtonDivClass{
