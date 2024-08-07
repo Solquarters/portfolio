@@ -1,22 +1,37 @@
 
 .mainLandingPageDivClass{
-    height: 95vh;
+    height: 100vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap:32px;
+    background-color: #141D2F;
+
+
+    background-image: url('../../../assets/img/28.\ Hero\ Background.png');
+    background-repeat: no-repeat;
+    background-position: 50% 200%;
+    background-size: 100% 80%;
 }
 
 
 .mainImgDivClass{
     height: 600px;
     width: 500px;
-    border: 1px solid black;
-
-//    background-image: url('../../../assets/img/profile1.png');
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../../assets/img/29.\ photo\ shadows.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
 >img{
-    height: 600px;
-    width: 500px;
+    height:700px;
+    width: 600px;
     object-fit: contain;
 }
 
@@ -25,12 +40,21 @@
 
 .welcomeTextDivClass{
     display: flex;
+    color:azure;
 
     >h2{
-        font-size: 64px;
+
         font-weight: 400;
         margin: 0px;
         white-space: nowrap;
+        transform: rotate(-90deg);
+        // width: 40px;
+        // height:160px;
+        font-size:62px;
+        position: relative;
+        top: -14px;
+        left: 60px;
+        
     }
     >div{
         display: flex;
@@ -42,30 +66,45 @@
             font-size: 90px;
             font-weight: 700;
             white-space: nowrap;
-            margin-block-start: 0;
-            margin-block-end: 0;
+         
+            line-height: 58px;
         }
         >h2{
             font-size: 64px;
             font-weight: 400;
             margin: 0px;
             white-space: nowrap;
-            margin-block-start: 0;
-        margin-block-end: 0;
+           
+        color: #9747FF;
         }
     }
 }
 
-.rotatedClass{
-    transform: rotate(-90deg);
-    display: flex;
-    align-items: center;
-    white-space: nowrap;
-    // font-size: 32px;
-}
+
 
 .textAndButtonDivClass{
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    >button{
+        font-size: 24px;
+        font-family: 'Poppins';
+        color: white;
+        padding: 16px 32px;
+        border-radius: 16px;
+        border: none;
+        background-color: #70E61C;;
+        cursor: pointer;
+        transition: transform 100ms ease, background-color 150ms ease;
+
+        margin: 32px 0px;
+
+        &:hover{
+            background-color:#9747FF ;
+            transform: scale(1.2, 1.1) translateY(5%);
+          
+        }
+        
+    }
 }
