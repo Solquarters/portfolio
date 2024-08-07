@@ -46,9 +46,10 @@ user-select: none;
     color: transparent;
 }
 >p:nth-child(3){
-    text-underline-offset: 10px;
+    text-underline-offset: 8px;
     color: #5a7bff;
-    text-decoration-color:#5a7bff
+    text-decoration-color:#5a7bff;
+    text-decoration-thickness: 1.5px;
 }
 >p:nth-child(4){
     background: linear-gradient(to right, #5a7bff 50%, #ffffff 90% );
