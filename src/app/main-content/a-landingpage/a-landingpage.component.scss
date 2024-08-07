@@ -1,18 +1,15 @@
 
 .mainLandingPageDivClass{
+    padding: 140px 0px 0px 0px;
     height: 100vh;
     width: 100%;
     user-select: none;
-   
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap:32px;
     background-color: #141D2F;
-
-
     background-image: url('../../../assets/img/28.\ Hero\ Background.png');
     background-repeat: no-repeat;
     background-position: 0px 500px;
@@ -93,12 +90,11 @@
         margin: 0px;
         white-space: nowrap;
         transform: rotate(-90deg);
-        // width: 40px;
-        // height:160px;
         font-size:62px;
         position: relative;
         top: -14px;
         left: 60px;
+        z-index: 1;
         
     }
     >div{
