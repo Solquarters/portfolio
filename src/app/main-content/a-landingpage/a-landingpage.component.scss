@@ -2,7 +2,11 @@
 .mainLandingPageDivClass{
     height: 100vh;
     width: 100%;
+    user-select: none;
+   
+    
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap:32px;
@@ -11,12 +15,53 @@
 
     background-image: url('../../../assets/img/28.\ Hero\ Background.png');
     background-repeat: no-repeat;
-    background-position: 50% 200%;
-    background-size: 100% 80%;
+    background-position: 0px 500px;
+    background-size: 100% 100%;
 }
 
+.mainChild1DivClass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:32px;
+}
+
+.mainChild2DivClass{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.horizontLineClass{
+    width: 120px;
+    height: 4px;
+    background-color: #9747FF;
+}
+
+.linksDivClass{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin: 0px 0px 0px 32px;
+
+    >img{
+        width: 48px;
+        transition: all 200ms ease;
+        cursor: pointer;
+
+        &:hover{
+            scale: (1.2);
+        }
+    }
+    >a{color: white;
+    cursor: pointer;
+        text-decoration: none;
+    }
+}
 
 .mainImgDivClass{
+  
     height: 600px;
     width: 500px;
     border: 1px solid rgb(255, 255, 255);

@@ -1,21 +1,22 @@
 .fixedDivClass{
     position: fixed;
+    width: 100%;
+    
 }
 
 
 
 .mainHeaderDivClass{
-    width: 100%;
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
     
     background-color: #141D2F;
     font-size: 24px;
     
     >div{
-        margin: 0px 32px 0px 32px;
+        margin: 0px 48px 0px 48px;
     }
 
 
