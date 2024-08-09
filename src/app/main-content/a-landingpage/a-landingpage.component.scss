@@ -12,6 +12,7 @@
 
 .mainLandingPageDivClass{
     max-width: 1800px;
+    height: 100%;
     width: 100%;
     background-image: url('../../../assets/img/28.\ Hero\ Background.png');
     background-repeat: no-repeat;
@@ -105,19 +106,21 @@ background-image: url('../../../assets/img/29.\ photo\ shadows.png');
     > div:nth-of-type(1){
         transform: rotate(-90deg);
         display: flex;
+        align-items: center;
+        justify-content: center;
         
-        width: 60px;
+        width: 3vh;
 
         >h2{
+            font-size:62px;
+            ////////////////////
+            font-size: clamp(16px, 7vw, 68px);
             font-weight: 400;
             margin: 0px;
             white-space: nowrap;
-            font-size:62px;
-            position: relative;
-            top: 24px;
-            right: 24px;
-            width: 60px;
-            height: 40px;
+            // position: relative;
+            // right: -8px;
+            padding: 0px 0px 3vw 0px;
         
         }
     }
@@ -128,19 +131,24 @@ background-image: url('../../../assets/img/29.\ photo\ shadows.png');
         justify-content: flex-start;
     
         >h1{
+            /////////////////
+           
+            font-size: clamp(16px, 10vw, 90px);
+
             margin: 0px;
-            font-size: 90px;
             font-weight: 600;
             white-space: nowrap;
-         
-            line-height: 58px;
+            line-height: calc(1vw + 1em);
         }
         >h2{
-            font-size: 64px;
+            //////////////
+            
+            font-size: clamp(16px, 8vw, 64px);
             font-weight: 400;
             margin: 0px;
             white-space: nowrap;
             color: #9747FF;
+            line-height: calc(0.8vw + 1em);
         }
     }
 }
@@ -148,7 +156,7 @@ background-image: url('../../../assets/img/29.\ photo\ shadows.png');
 
 
 .textAndButtonDivClass{
-    // width: 50%;
+    width: 48%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -202,6 +210,7 @@ background-image: url('../../../assets/img/29.\ photo\ shadows.png');
     }
 
     .textAndButtonDivClass{
+        width: 98%;
         margin: 16px 0px 0px 0px;
         >button{
             margin: 0px 0px 40px 0px;
@@ -224,19 +233,19 @@ background-image: url('../../../assets/img/29.\ photo\ shadows.png');
         color:azure;
     
         >h2{
-            font-size:48px;
-            position: relative;
-            top: -8px;
-            left: 60px;
+            // font-size:48px;
+            // position: relative;
+            // top: -8px;
+            // left: 60px;
         }
 
         >div{
             >h1{
-                font-size: 70px;
-                line-height: 58px;
+                // font-size: 70px;
+                // line-height: 58px;
             }
             >h2{
-                font-size: 48px;
+                // font-size: 48px;
             }
         }
     }
