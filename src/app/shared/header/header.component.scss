@@ -46,7 +46,7 @@ user-select: none;
 >p:nth-child(1){
     font-size: 42px;
     text-decoration: none;
-    background: linear-gradient(140deg, #17c900 50%, #ffffff 70% );
+    background: linear-gradient(140deg, #70E61C 50%, #ffffff 70% );
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -59,14 +59,8 @@ user-select: none;
     color: transparent;
 }
 >p:nth-child(3){
-    // text-underline-offset: 8px;
-    // color: #9747FF;
-    // text-decoration-color:#9747FF;
-    // text-decoration-thickness: 1.5px;
-
     text-decoration: none;
     background: linear-gradient(160deg, #9747FF 50%, #ffffff 65% );
-    // background: radial-gradient(#750bff 20%, #9747FF  50% );
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -81,7 +75,7 @@ user-select: none;
 }
 >p:nth-child(5){
     text-decoration: none;
-    background: linear-gradient(140deg, #9747FF 50%, #ffffff 70% );
+    background: linear-gradient(60deg, #9747FF 55%, #7c7c7c 20% );
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
