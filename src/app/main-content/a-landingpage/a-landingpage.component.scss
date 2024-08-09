@@ -176,7 +176,7 @@ background-image: url('../../../assets/img/29.\ photo\ shadows.png');
 }
 
 
-
+///////////////////////MEDIA QUERIES
 
 
 
@@ -245,4 +245,16 @@ background-image: url('../../../assets/img/29.\ photo\ shadows.png');
   }
 
 
+  @media screen and (max-width: 700px) {
+.horizontLineClass{
+    display: none;
+}
+.linksDivClass{
+    margin: 0;
+    >a:nth-of-type(4){
+        display: none;
+}
+  }
+
+}
 
