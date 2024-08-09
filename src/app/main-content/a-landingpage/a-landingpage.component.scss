@@ -1,37 +1,44 @@
-
-.mainLandingPageDivClass{
+.motherDiv{
     padding: 140px 0px 0px 0px;
     height: 100vh;
     width: 100%;
     user-select: none;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    gap:32px;
     background-color: #141D2F;
+   
+}
+
+.mainLandingPageDivClass{
+    max-width: 1800px;
+    width: 100%;
     background-image: url('../../../assets/img/28.\ Hero\ Background.png');
     background-repeat: no-repeat;
-    background-position: 0px 500px;
+    background-position: 0px 220px;
     background-size: 100% 100%;
 }
 
 .mainChild1DivClass{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:32px;
+    
+    
+    
 }
 
 .mainChild2DivClass{
     width: 100%;
     display: flex;
     align-items: center;
+    padding: 80px 0px 0px 0px;
     
 }
 
 .horizontLineClass{
-    width: 120px;
+    width: 200px;
     height: 4px;
     background-color: #9747FF;
 }
@@ -46,58 +53,76 @@
         width: 48px;
         transition: all 200ms ease;
         cursor: pointer;
+        color: white;
+        text-decoration: none;
 
         &:hover{
             scale: (1.2);
         }
     }
-    >a{color: white;
-    cursor: pointer;
-        text-decoration: none;
+
+
+    >a:nth-child(4){
+        width: 200px;
     }
+   
 }
 
 .mainImgDivClass{
-  
-    height: 600px;
-    width: 500px;
+    padding: 20px 0px 0px 0px;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 32px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('../../../assets/img/29.\ photo\ shadows.png');
+   
+>img{
+    height: 100%;
+    width:100%;
+   
+    object-fit: contain;
+}
+
+
+background-image: url('../../../assets/img/29.\ photo\ shadows.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-   
->img{
-    height:700px;
-    width: 600px;
-    object-fit: contain;
-}
+    background-size: 600px 600px;
 
 }
 
 
 .welcomeTextDivClass{
+    // position: relative;
+    // right: 32px;
     display: flex;
     color:azure;
 
-    >h2{
+    
 
-        font-weight: 400;
-        margin: 0px;
-        white-space: nowrap;
+
+    > div:nth-of-type(1){
         transform: rotate(-90deg);
-        font-size:62px;
-        position: relative;
-        top: -14px;
-        left: 60px;
-        z-index: 1;
+        display: flex;
         
+        width: 60px;
+
+        >h2{
+            font-weight: 400;
+            margin: 0px;
+            white-space: nowrap;
+            font-size:62px;
+            position: relative;
+            top: 24px;
+            right: 24px;
+            width: 60px;
+            height: 40px;
+        
+        }
     }
-    >div{
+
+    > div:nth-of-type(2){
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -105,7 +130,7 @@
         >h1{
             margin: 0px;
             font-size: 90px;
-            font-weight: 700;
+            font-weight: 600;
             white-space: nowrap;
          
             line-height: 58px;
@@ -115,8 +140,7 @@
             font-weight: 400;
             margin: 0px;
             white-space: nowrap;
-           
-        color: #9747FF;
+            color: #9747FF;
         }
     }
 }
@@ -124,6 +148,7 @@
 
 
 .textAndButtonDivClass{
+    // width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -149,3 +174,75 @@
         
     }
 }
+
+
+
+
+
+
+@media screen and (max-width: 1690px) {
+
+    .motherDiv{
+        
+        padding: 100px 0px 0px 0px;
+        background-position: 50% 50%;
+    }
+
+    .mainChild1DivClass{
+        flex-direction: column;
+    }
+
+    .welcomeTextDivClass{
+        margin: 24px;
+    }
+
+    .mainChild2DivClass{
+        padding: 0px 0px 32px 0px;
+        justify-content: center;
+    }
+
+    .textAndButtonDivClass{
+        margin: 16px 0px 0px 0px;
+        >button{
+            margin: 0px 0px 40px 0px;
+        }
+    }
+
+  }
+
+  @media screen and (max-width: 945px) {
+
+    .welcomeTextDivClass{
+        margin: 8;
+    }
+
+
+    .welcomeTextDivClass{
+        // position: relative;
+        // right: 32px;
+        display: flex;
+        color:azure;
+    
+        >h2{
+            font-size:48px;
+            position: relative;
+            top: -8px;
+            left: 60px;
+        }
+
+        >div{
+            >h1{
+                font-size: 70px;
+                line-height: 58px;
+            }
+            >h2{
+                font-size: 48px;
+            }
+        }
+    }
+
+
+  }
+
+
+

@@ -1,19 +1,51 @@
+
+
+
+
 <div class="fixedDivClass">
     
-    <div class="mainHeaderDivClass">
-        <div class="nameLogoDivClass">
-            <p>R</p><p class="gradient-underline2">O</p><p>M</p><p class="gradient-underline">A</p><p>N</p>
+    <div class="maxWidthClass">
+
+        <div class="mainHeaderDivClass">
+            <div class="nameLogoDivClass">
+                <p>R</p><p >o</p><p class="gradient-underline">m</p><p >a</p><p>N</p>
+            </div>
+        
+            <div class="navbarDivClass">
+                <a href="" class="underline-link">About me</a>
+                <a href="" class="underline-link">Skills</a>
+                <a href="" class="underline-link">Portfolio</a>
+            </div>
+
+            <div class="mainMobileMenuDiv">
+                <div class="mobile-menu-links" id="mobiledropdown" *ngIf="this.isMenuActive">
+                
+                    <a href="#">About me</a>
+                    <a href="#">Skills</a>
+                    <a href="#">Portfolio</a>
+                    <!-- <a href="./impressum.html">Legal notice</a> -->
+                  </div>
+                  
+                  <div id="burger-menu" class="burger-menu" (click)="toggleMenu()" [class.active]="isMenuActive">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+            
+            </div>
+
+           
+        
+        
+        
         </div>
-    
-        <div class="navbarDivClass">
-            <a href="">About me</a>
-            <a href="">Skills</a>
-            <a href="">Portfolio</a>
-        </div>
-    
-    
-    
+
+
     </div>
+
+
+
+    
 
 
 
