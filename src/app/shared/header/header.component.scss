@@ -46,28 +46,28 @@ user-select: none;
 >p:nth-child(1){
     font-size: 42px;
     text-decoration: none;
-    background: linear-gradient(140deg, #70E61C 50%, #ffffff 70% );
+    background: linear-gradient(to left, #9747FF  75%, #a0a0a0 50% );
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
 }
 >p:nth-child(2){
     text-decoration: none;
-    background: linear-gradient(140deg, #9747FF 50%, #ffffff 70% );
+    background: linear-gradient(160deg, #9747FF 50%, #ffffff 70% );
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
 }
 >p:nth-child(3){
     text-decoration: none;
-    background: linear-gradient(160deg, #9747FF 50%, #ffffff 65% );
+    background: linear-gradient(to bottom, #9747FF 45%, #ffffff 70% );
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
     
 }
 >p:nth-child(4){
-    background: linear-gradient(140deg, #9747FF 50%, #ffffff 70% );
+    background: linear-gradient(200deg, #9747FF 50%, #ffffff 70% );
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
