@@ -61,6 +61,7 @@
         color: white;
         text-decoration: none;
 
+        
         &:hover{
             scale: (1.2);
         }
@@ -297,7 +298,7 @@
 @media screen and (max-width: 350px) {
     .motherDiv{
       
-        height: 80vh;
+        height: 70vh;
     
        
     }
