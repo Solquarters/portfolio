@@ -123,3 +123,25 @@ width: 95%;
     }
    
 }
+
+
+
+@media screen and (max-width: 780px) {
+    .singleProjectMainDiv{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .singleProjectChildDiv1{
+        width: 70%;
+    }
+    .singleProjectChildDiv2{
+        align-items: center;
+        width: 100%;
+
+        >h2{
+            text-align: center;
+        }
+    }
+}
+
