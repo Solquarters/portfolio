@@ -1,0 +1,125 @@
+
+.portfolioMotherDiv{
+
+    padding: 0px 0px 32px 0px;
+    // height: 70vh;
+    
+    width: 100%;
+    background-color: #141D2F;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+
+
+.mainPortfolioDivClass{
+    max-width: 1800px;
+    // height: 50vh;
+    background-color: #141D2F;
+   color: white;
+    background-color: #141D2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+width: 90%;
+
+    >h1{
+        font-size: clamp(16px, 10vw, 90px);
+            font-weight: 600;
+            white-space: nowrap;
+            line-height: 120px;
+            margin: 0px 0px 0px 0px;
+            
+    }
+}
+
+
+
+.singleProjectMainDiv{
+    display: flex;
+width: 95%;
+
+
+
+}
+
+
+
+.singleProjectChildDiv1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ width: 50%;
+ 
+ >img{width: 100%;}
+}
+
+.singleProjectChildDiv2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+
+   
+    >h2{
+       color: #9747FF;
+       margin: 0px;
+    
+    }
+
+
+    >h2:nth-child(2){
+        color: chartreuse;
+        font-weight: 300;
+       
+    }
+
+    >div{
+        display: flex;
+        gap: 16px;
+
+        >button{
+            font-size: 16px;
+            font-family: 'Poppins';
+            color: white;
+            padding: 8px 16px;
+            border-radius: 8px;
+           
+            
+            cursor: pointer;
+            transition: transform 100ms ease, background-color 200ms ease;
+            margin: 32px 0px;
+    
+            &:hover{
+                background-color:chartreuse ;
+            }
+            
+        }
+        >button:nth-child(1){
+            background-color:#9747FF;
+            border: none;
+            &:hover{
+                background-color:chartreuse ;
+            }
+        }
+
+        >button:nth-child(2){
+            background-color: #141D2F;
+            border: 1px solid chartreuse;
+            &:hover{
+                background-color:chartreuse ;
+            }
+        }
+
+
+    }
+   
+}
