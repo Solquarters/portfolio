@@ -1,8 +1,8 @@
 
 .mySkillsMotherDiv{
 
-    padding: 64px 0px 64px 0px;
-    height: 70vh;
+    padding: 0px 0px 32px 0px;
+    // height: 70vh;
     
     width: 100%;
     background-color: #141D2F;
@@ -10,13 +10,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+
+
 }
 
 
 
 .mainSkillsDivClass{
     max-width: 1800px;
-    height: 50vh;
+    // height: 50vh;
     background-color: #141D2F;
    color: white;
     background-color: #141D2F;
@@ -52,7 +55,7 @@ gap: 32px;
 }
 
 .mainChild2DivClass{
-    width: 50%;
+    width: 40%;
     padding: 0px 16px; 
 
 
@@ -103,7 +106,28 @@ gap: 32px;
    
 }
 
+.furtherExpDivClass{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+>p{
+    margin: 0px 0px 8px 0px;
+}
+    >div{
+        display: flex;
+        gap:16px;
 
+        >img{
+            width: clamp(24px, 10vw, 64px);
+            transition: all 200ms ease;
+            &:hover{
+                scale: (1.2);
+            }
+        }
+    }
+}
 
 .mobile-display-Class{
     display: none;
@@ -112,6 +136,7 @@ gap: 32px;
     justify-content: center;
 
     >p{text-align: center;}
+   
 
     >button{
         font-size: 24px;
@@ -136,6 +161,15 @@ gap: 32px;
 }
 
 
+
+@media screen and (min-width: 781px) {
+    .mySkillsMotherDiv{
+      padding: 64px 0px 64px 0px;
+    }
+}
+
+
+
 @media screen and (max-width: 780px) {
     .mainSkillsDivClass{
      
@@ -143,16 +177,8 @@ gap: 32px;
         flex-direction: column-reverse;
     }
 
-
-    .mySkillsMotherDiv{
-
-        
-        height: 90vh;
-    }
-
-
     .mainChild1DivClass{
-        width: 80%;
+        width: 90%;
         display: flex;
         justify-content: center;
     }
@@ -169,8 +195,27 @@ gap: 32px;
     }
     .mobile-display-Class{
         display:flex;
+        
     }
+    .furtherExpDivClass{
+        >div{
+            margin: 0px 0px 16px 0px;
+        }
+    }
+
+
+
 }
 
 
+
+
+@media screen and (max-width: 500px) {
+    .mainChild1DivClass{
+       
+        >img{
+            width: 18%;
+        }  
+    }
+}
 
