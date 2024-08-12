@@ -29,7 +29,7 @@
 
     flex-direction: column;
 
-
+>p{margin: 16px 0px 48px 0px;}
 
     >h1{
         font-size: clamp(16px, 10vw, 90px);
@@ -70,7 +70,11 @@ width: 95%;
     align-items: center;
  width: 50%;
  
- >img{width: 100%;}
+ >img{width: 60%;
+        transition: all 200ms ease;
+    &:hover{
+        scale:1.8;
+    }}
 }
 
 .singleProjectChildDiv2{
@@ -78,6 +82,7 @@ width: 95%;
     flex-direction: column;
     justify-content: center;
     width: 50%;
+    margin: 16px 0px 48px 0px;
 
    
   
@@ -139,7 +144,8 @@ width: 95%;
 @media screen and (max-width: 780px) {
 
     .mainPortfolioDivClass{
-        p{text-align: center;}
+        p{text-align: center;
+        margin: 0px 0px 32px 0px;}
 
         >div:nth-child(odd){
             flex-direction: column;
@@ -163,6 +169,12 @@ width: 95%;
 
     .singleProjectChildDiv1{
         width: 70%;
+
+        >img{width: 75%;
+            transition: all 200ms ease;
+        &:hover{
+            scale:1.8;
+        }}
     }
     .singleProjectChildDiv2{
         align-items: center;
@@ -181,11 +193,18 @@ width: 95%;
         p{text-align: center;}
     }
 
-      
-
+    
 
   
 }
 
 
    
+@media screen and (max-width: 500px) {
+.mainPortfolioDivClass{
+    >h2{
+        line-height: 100px;
+    }
+   
+}
+}
