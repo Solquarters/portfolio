@@ -41,7 +41,7 @@ gap: 32px;
 
 
 >img{
-    width: 15%;
+    width: clamp(16px, 18vw, 90px);
     transition: all 200ms ease;
     &:hover{
         scale: (1.2);
@@ -58,6 +58,7 @@ gap: 32px;
     width: 43%;
     padding: 0px 16px; 
 
+    
 
     >h1{
         font-size: clamp(16px, 10vw, 90px);
@@ -188,6 +189,8 @@ gap: 32px;
         justify-content: center;
         flex-direction: column;
         align-items: center;
+
+        >p{text-align: center;}
     }
 
     .mobile-d-noneClass{

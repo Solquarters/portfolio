@@ -46,28 +46,28 @@ user-select: none;
 >p:nth-child(1){
     font-size: 42px;
     text-decoration: none;
-    background: linear-gradient(to left, #9747FF  75%, #a0a0a0 50% );
+    background: linear-gradient(to left, #9747FF  72%, #a0a0a0 72% );
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
 }
 >p:nth-child(2){
     text-decoration: none;
-    background: linear-gradient(160deg, #9747FF 50%, #ffffff 70% );
+    background: linear-gradient(160deg, #9747FF 55%, #ffffff 68% );
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
 }
 >p:nth-child(3){
     text-decoration: none;
-    background: linear-gradient(to bottom, #9747FF 45%, #ffffff 70% );
+    background: linear-gradient(to bottom, #9747FF 50%, #ffffff 65% );
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
     
 }
 >p:nth-child(4){
-    background: linear-gradient(200deg, #9747FF 50%, #ffffff 70% );
+    background: linear-gradient(200deg, #9747FF 55%, #ffffff 68% );
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -117,7 +117,7 @@ user-select: none;
       bottom: 5px;
       width: 0;
       height: 1px; /* Thickness of the underline */
-      background: linear-gradient(to left, white 5%, #17c900 50% );
+      background: linear-gradient(to right, white 60%, #17c900 100% );
       transition: width 0.3s ease; 
     }
   

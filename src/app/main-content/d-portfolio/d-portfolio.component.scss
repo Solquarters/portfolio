@@ -19,7 +19,7 @@
 
 .mainPortfolioDivClass{
     max-width: 1800px;
-    // height: 50vh;
+    width: 90%;
     background-color: #141D2F;
    color: white;
     background-color: #141D2F;
@@ -29,7 +29,7 @@
 
     flex-direction: column;
 
-width: 90%;
+
 
     >h1{
         font-size: clamp(16px, 10vw, 90px);
@@ -39,13 +39,24 @@ width: 90%;
             margin: 0px 0px 0px 0px;
             
     }
+
+    >div:nth-child(odd){
+        flex-direction: row;
+
+    }
+    >div:nth-child(even){
+        flex-direction: row-reverse;
+
+    }
 }
+
 
 
 
 .singleProjectMainDiv{
     display: flex;
 width: 95%;
+
 
 
 
@@ -69,55 +80,54 @@ width: 95%;
     width: 50%;
 
    
-    >h2{
-       color: #9747FF;
-       margin: 0px;
-    
+  
+    >h2:nth-child(1){
+       
+        font-weight: 300;
+        color: #9747FF;
+       margin: 32px 0px 0px 0px;
+       
     }
-
 
     >h2:nth-child(2){
         color: chartreuse;
         font-weight: 300;
-       
+        margin: 0px 0px 0px 0px;
+        font-size: 20px;
+        
     }
 
     >div{
         display: flex;
         gap: 16px;
+        >a{
+            >button{
+                font-size: 16px;
+                font-family: 'Poppins';
+                color: white;
+                padding: 8px 16px;
+                border-radius: 8px;
+                cursor: pointer;
+                transition: transform 100ms ease, background-color 200ms ease;
+                margin: 16px 0px;
+                background-color:#9747FF;
+                border: none;
+                &:hover{
+                    background-color:chartreuse ;
+                }
+            }
+        }
+        >a:nth-child(2){
+            >button{
+                background-color: #141D2F;
+                border: 1px solid chartreuse;
+                &:hover{
+                    background-color:chartreuse ;
+                }
+            }
+        }
 
-        >button{
-            font-size: 16px;
-            font-family: 'Poppins';
-            color: white;
-            padding: 8px 16px;
-            border-radius: 8px;
-           
-            
-            cursor: pointer;
-            transition: transform 100ms ease, background-color 200ms ease;
-            margin: 32px 0px;
-    
-            &:hover{
-                background-color:chartreuse ;
-            }
-            
-        }
-        >button:nth-child(1){
-            background-color:#9747FF;
-            border: none;
-            &:hover{
-                background-color:chartreuse ;
-            }
-        }
-
-        >button:nth-child(2){
-            background-color: #141D2F;
-            border: 1px solid chartreuse;
-            &:hover{
-                background-color:chartreuse ;
-            }
-        }
+        
 
 
     }
@@ -127,7 +137,26 @@ width: 95%;
 
 
 @media screen and (max-width: 780px) {
+
+    .mainPortfolioDivClass{
+        p{text-align: center;}
+
+        >div:nth-child(odd){
+            flex-direction: column;
+    
+        }
+        >div:nth-child(even){
+            flex-direction: column;
+    
+        }
+        >div{
+            margin: 0px 0px 32px 0px;
+        }
+    }
+
     .singleProjectMainDiv{
+
+        
         flex-direction: column;
         align-items: center;
     }
@@ -142,6 +171,21 @@ width: 95%;
         >h2{
             text-align: center;
         }
+        >h2:nth-child(1){
+       
+            font-weight: 300;
+            color: #9747FF;
+           margin: 0px 0px 0px 0px;
+           
+        }
+        p{text-align: center;}
     }
+
+      
+
+
+  
 }
 
+
+   
