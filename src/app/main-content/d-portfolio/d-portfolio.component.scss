@@ -235,7 +235,14 @@ width: 95%;
 
    
 @media screen and (max-width: 500px) {
+
+    .portfolioMotherDiv{
+
+        padding: 80px 0px 32px 0px;}
+
+
 .mainPortfolioDivClass{
+    >h1{line-height:80px ;}
     >h2{
         line-height: 100px;
     }
