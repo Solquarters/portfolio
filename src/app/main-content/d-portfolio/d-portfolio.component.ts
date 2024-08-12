@@ -67,4 +67,16 @@ export class DPortfolioComponent {
 
 
 
+
+  isScaled = false;
+
+  onTouchStart(): void {
+    this.isScaled = true;
+  }
+
+  onTouchEnd(): void {
+    this.isScaled = false;
+  }
+
+
 }

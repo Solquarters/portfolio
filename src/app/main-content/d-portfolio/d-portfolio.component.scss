@@ -42,14 +42,24 @@
 
     >div:nth-child(odd){
         flex-direction: row;
+        
 
     }
     >div:nth-child(even){
         flex-direction: row-reverse;
-
+        >div{
+            
+            >p{
+                text-align: end;
+            }
+        }
+        >div:nth-child(2){
+            align-items: flex-end;
+            
+        }
+        
     }
 }
-
 
 
 
@@ -71,10 +81,14 @@ width: 95%;
  width: 50%;
  
  >img{width: 60%;
-        transition: all 200ms ease;
+        transition: all 300ms ease;
     &:hover{
-        scale:1.8;
+        scale:1.6;
     }}
+
+    >img.scaled{
+        transform: scale(1.6);
+    }
 }
 
 .singleProjectChildDiv2{
@@ -87,10 +101,10 @@ width: 95%;
    
   
     >h2:nth-child(1){
-       
-        font-weight: 300;
+    //    font-size: clamp();
+        font-weight: 700;
         color: #9747FF;
-       margin: 32px 0px 0px 0px;
+       margin: 32px 0px 12px 0px;
        
     }
 
@@ -141,6 +155,7 @@ width: 95%;
 
 
 
+
 @media screen and (max-width: 780px) {
 
     .mainPortfolioDivClass{
@@ -171,15 +186,19 @@ width: 95%;
         width: 70%;
 
         >img{width: 75%;
-            transition: all 200ms ease;
+            transition: all 250ms ease;
         &:hover{
             scale:1.8;
         }}
+
+        >img.scaled{
+            transform: scale(1.8);
+        }
     }
     .singleProjectChildDiv2{
         align-items: center;
         width: 100%;
-
+        p{text-align: center;}
         >h2{
             text-align: center;
         }
@@ -190,10 +209,25 @@ width: 95%;
            margin: 0px 0px 0px 0px;
            
         }
-        p{text-align: center;}
+        
     }
 
-    
+    .mainPortfolioDivClass{
+        >div:nth-child(even){
+           
+            >div{
+                
+                >p{
+                    text-align: center;
+                }
+            }
+            >div:nth-child(2){
+                align-items: center;
+                
+            }
+            
+        }
+    }
 
   
 }

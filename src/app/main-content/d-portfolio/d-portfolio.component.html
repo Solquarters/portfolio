@@ -15,7 +15,11 @@
     <div class="singleProjectMainDiv">
 
         <div class="singleProjectChildDiv1">
-            <img src="{{singleProject.imgSource}}" alt="">
+            <img src="{{singleProject.imgSource}}" alt="" 
+            [class.scaled]="isScaled"
+            (touchstart)="onTouchStart()"
+            (touchend)="onTouchEnd()"
+            (touchcancel)="onTouchEnd()">
         </div>
         
         <div class="singleProjectChildDiv2">
