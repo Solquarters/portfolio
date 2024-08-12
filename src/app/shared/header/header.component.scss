@@ -194,7 +194,6 @@ user-select: none;
     align-items: center;
     margin: 0px 0px 1px 0px;
     text-decoration: none;
-    // background-color: #141D2F;
     padding: 16px 32px 16px 6px;
     text-decoration: none;
     font-optical-sizing: auto;
@@ -228,8 +227,9 @@ user-select: none;
   }
 
 
-
-
+  ////////////////////////
+ 
+  
 ///////////////Animation mobile 
 @keyframes fadeIn {
     from {
@@ -251,7 +251,15 @@ user-select: none;
       animation: fadeOut 0.5 forwards;
       
     }
-
+    @keyframes fadeOut {
+      from  {
+        opacity: 1;
+      }
+    
+      to {
+        opacity: 0;
+      }
+    }
 
 
 
