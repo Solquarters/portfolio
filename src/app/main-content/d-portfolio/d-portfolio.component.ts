@@ -1,11 +1,12 @@
 import { CommonModule } from '@angular/common';
 import { Component} from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { ReferencesComponent } from './references/references.component';
 
 @Component({
   selector: 'app-d-portfolio',
   standalone: true,
-  imports: [FormsModule, CommonModule],
+  imports: [FormsModule, CommonModule, ReferencesComponent],
   templateUrl: './d-portfolio.component.html',
   styleUrl: './d-portfolio.component.scss'
 })
@@ -41,7 +42,7 @@ export class DPortfolioComponent {
     {
       name: "The Wave",
       toolsUsed: "C++ | Unreal Engine",
-      description: "An Unreal Engine based Game Demo, with custom sound riddles and level design. Incorporating Metasound and a combination of C++ und Blueprints.",
+      description: "An Unreal Engine based Game Demo, with custom sound riddles and level design. Incorporating Metasound and a combination of C++ and Blueprints.",
       liveTestUrl: "https://code-crafters-join-3.developerakademie.net/06_09_GruppenProjekt_Join_ProjektOrdner/02summary.html",
       githubLink: "https://github.com/Solquarters/Join_Gruppe3",
       imgSource: "../../../assets/img/portfolio screenshots/thewavelaptoppng.png",
