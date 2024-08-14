@@ -97,9 +97,6 @@ user-select: none;
         transition: all 0.3s;
         &:hover{
             color: #70E61C;
-            // text-decoration: underline;
-            // text-underline-offset: 6px;
-            // text-decoration-thickness: 2px;
         }
     }
     
@@ -182,7 +179,7 @@ user-select: none;
   
   .mobile-menu-links {
     position: absolute;
-    top: 84px;
+    top: 81px;
     right: 0px;
     width: 100%;
   }
