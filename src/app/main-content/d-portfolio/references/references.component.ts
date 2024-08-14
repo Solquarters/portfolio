@@ -15,16 +15,16 @@ export class ReferencesComponent {
 
   slides = [
     { 
-      text: "Michael really kept the team together with his great organization and clear communication. We wouldn’t have got this far without his commitment.", 
-      author: "V. Schuster - Team Partner", 
-      image: 'assets/michael.jpg', 
-      alt: 'Michael Schuster' 
+      text: "Der Roman ist super cool drauf und ist immer sehr nett, ich war bei den beiden Gruppenarbeiten, die wir bis jetzt hatten mit Roman in einer Gruppe und mir hat es sehr geholfen, jedes Mal, wenn ich etwas nicht wusste und Fragen hatte da war Roman immer für mich da und hat mir alles sehr ausführlich erklärt und gezeigt, ich habe sehr viel von Roman gelernt. Egal welche Probleme man hatte, Roman hat es innerhalb einer kurzen Zeit gelöst!", 
+      author: "Oleg Wenner - Join Team Partner", 
+      image: '../../../assets/img/portfolio screenshots/openapiprojectlaptoppng.png', 
+      alt: 'Oleg Wenner - Join Team Partner' 
     },
     { 
-      text: "Another testimonial goes here with a different person.", 
-      author: "Another Author", 
-      image: 'assets/another_person.jpg', 
-      alt: 'Another Person' 
+      text: "Roman ist eine äußerst zuverlässige und lösungsorientierte Person. Er zeichnet sich durch Ruhe in kritischen Situationen aus. Er ist stets motiviert und engagiert. Die Zusammenarbeit mit ihm macht großen Spaß, . Roman kann stundenlang fokussiert arbeiten und ist dabei immer hilfsbereit. Seine Unterstützung und sein Einsatz sind von unschätzbarem Wert.", 
+      author: "Maurice Preißler - Join Team Partner", 
+      image: '../../../assets/img/mauricePreissler.jpg', 
+      alt: 'Maurice Preißler - Join Team Partner' 
     }
   ];
 
@@ -39,7 +39,7 @@ export class ReferencesComponent {
     this.clearSlideshowInterval(); // Clear any existing interval
     this.slideInterval = setInterval(() => {
       this.nextSlide();
-    }, 5000); // Change slide every 5 seconds
+    }, 8000); // Change slide every 5 seconds
   }
 
   clearSlideshowInterval() {

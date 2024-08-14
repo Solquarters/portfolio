@@ -48,7 +48,7 @@ export class DPortfolioComponent {
       imgSource: "../../../assets/img/portfolio screenshots/thewavelaptoppng.png",
     },
     {
-      name: "Open API based poject",
+      name: "CRM / Open API based poject",
       toolsUsed: "JavaScript, APIs",
       description: "Still open, check git hub ideas",
       liveTestUrl: "https://code-crafters-join-3.developerakademie.net/06_09_GruppenProjekt_Join_ProjektOrdner/02summary.html",
