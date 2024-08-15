@@ -132,14 +132,14 @@
             font-size: clamp(16px, 10vw, 90px);
             margin: 0px;
             font-weight: 600;
-            // white-space: nowrap;
+            white-space: nowrap;
             line-height: calc(1vw + 1em);
         }
         >h2{
             font-size: clamp(16px, 8vw, 64px);
             font-weight: 400;
             margin: 0px;
-            // white-space: nowrap;
+            white-space: nowrap;
             color: #9747FF;
             line-height: calc(0.8vw + 1em);
         }
@@ -191,6 +191,35 @@
 }
 
 
+
+@media screen and (min-width: 782px) {
+    .welcomeTextDivClass{
+        > div:nth-of-type(1){
+           
+        }
+        > div:nth-of-type(2){
+            >h1{
+                white-space: nowrap;
+            }
+            >h2{
+                white-space: nowrap;
+            }
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1690px) {
 
     .motherDiv{
@@ -230,8 +259,6 @@
 
 
     .welcomeTextDivClass{
-        // position: relative;
-        // right: 32px;
         display: flex;
         color:azure;
     
@@ -239,6 +266,30 @@
 
        
     }
+
+    .welcomeTextDivClass{
+        > div:nth-of-type(1){
+            >h2{
+                white-space: nowrap;
+               
+            }
+        }
+        > div:nth-of-type(2){
+            >h1{
+                white-space: normal;
+               
+            }
+            >h2{
+                white-space: normal;
+               
+            }
+        }
+    }
+
+
+
+   
+        
 
 
   }

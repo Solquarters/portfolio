@@ -23,7 +23,7 @@ export class ReferencesComponent {
     { 
       text: "Roman ist eine äußerst zuverlässige und lösungsorientierte Person. Er zeichnet sich durch Ruhe in kritischen Situationen aus. Er ist stets motiviert und engagiert. Die Zusammenarbeit mit ihm macht großen Spaß. Roman kann stundenlang fokussiert arbeiten und ist dabei immer hilfsbereit. Seine Unterstützung und sein Einsatz sind von unschätzbarem Wert.", 
       author: "Maurice Preißler - Join Team Partner", 
-      image: '../../../assets/img/mauricePreissler.jpg', 
+      image: '../../../assets/img/mauriceFeedback.png', 
       alt: 'Maurice Preißler - Join Team Partner' 
     }
   ];
