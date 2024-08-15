@@ -32,7 +32,7 @@ termsAccepted : boolean = false;
   mailTest = true;
 
   post = {
-    endPoint: 'https://deineDomain.de/sendMail.php',
+    endPoint: 'https://https://roman-kabucov.de/sendMail.php',
     body: (payload: any) => JSON.stringify(payload),
     options: {
       headers: {
