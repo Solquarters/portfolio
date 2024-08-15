@@ -24,6 +24,8 @@ termsAccepted : boolean = false;
   
   }
 
+
+
   toggleTerms() {
     this.termsAccepted= !this.termsAccepted;
   }
@@ -32,7 +34,7 @@ termsAccepted : boolean = false;
   mailTest = true;
 
   post = {
-    endPoint: 'https://https://roman-kabucov.de/sendMail.php',
+    endPoint: 'https://roman-kabucov.de/sendMail.php',
     body: (payload: any) => JSON.stringify(payload),
     options: {
       headers: {
