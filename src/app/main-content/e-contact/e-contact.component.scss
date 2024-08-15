@@ -54,6 +54,27 @@ color: white;
     justify-content: center;
 }
 
+.parentDiv2 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 16px 0;
+    align-items: center;
+  
+    > svg {
+      cursor: pointer;
+      
+      &:hover {
+        rect {
+          stroke: #70E61C;
+        }
+  
+        path {
+          fill: #70E61C;
+        }
+      }
+    }
+  }
 
 
 @media screen and (max-width: 780px) {

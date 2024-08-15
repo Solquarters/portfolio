@@ -10,4 +10,8 @@ import { ContactformComponent } from './contactform/contactform.component';
 })
 export class EContactComponent {
 
+
+  scrollToTop(): void {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
 }
