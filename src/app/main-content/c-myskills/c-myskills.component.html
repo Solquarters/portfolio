@@ -18,8 +18,39 @@
         <img src="../../../assets/img/firebaselogo.svg" alt="">
         <img src="../../../assets/img/gitlogo.svg" alt="">
         <img src="../../../assets/img/restaoilogo.svg" alt="">
+
+
+
+        <div class="hover-container" (mouseover)="isHovered = true" (mouseleave)="isHovered = false">
         <img src="../../../assets/img/learninglogo.svg" alt="">
+        <div *ngIf="isHovered" class="hover-div">
+            
+            <div class="hoverParentDiv"> 
+                <span>I have a special interest in learning:</span>
+
+                <div class="hoverParentDiv2">
+                    <div class="hoverChildDiv"> 
+                        <img src="../../../assets/img/dotnetlogo.png" alt="">
+                        <span>C#</span>
+                        </div>
         
+                    <div class="hoverChildDiv"> 
+                        <img src="../../../assets/img/itsecicon.png" alt="">
+                        <span>Cybersec.</span>
+                    </div>
+
+                </div>
+                
+        </div>
+           
+           
+            
+           
+           
+          
+        </div>
+    </div>
+
         <div class="furtherExpDivClass">
             <p>Experience with:</p>
             <div>
