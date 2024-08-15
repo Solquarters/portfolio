@@ -64,9 +64,54 @@ input[type=text], textarea {
         }
   }
 
+  button[disabled] {
+    background-color: #B6B6B6;
+    cursor: not-allowed; /* Optional: to visually indicate the button is not clickable */
+    transform: none; /* Prevents the hover transform effect when disabled */
+}
+
+button[disabled]:hover {
+    background-color: #B6B6B6; /* Ensure the color stays gray even if hovered */
+    transform: none; /* Ensure no scaling occurs when hovering over a disabled button */
+}
+
   span{
     font-family: 'Poppins';
     color: red;
     font-weight: 300;
     color: red;
+  }
+
+
+
+
+  ////////////////////////////////////
+  .custom-checkbox {
+    display: flex;
+    align-items: center;
+    // flex-wrap: wrap;
+    cursor: pointer;
+    user-select: none;
+    margin: 8px 0px;
+  }
+  
+  .checkbox-icon {
+   
+    border-radius: 50%;
+    width: 28px;
+      height: 28px;
+    margin: 0px 10px 0px 0px;
+    background: url('../../../../assets/img/checkboxempty.svg') no-repeat center center;
+    // background-size: contain;
+    flex-shrink: 0;
+    transition: background 0.3s ease;
+
+    &:hover{
+      background-color: #183771;
+    }
+  }
+  
+  .custom-checkbox.checked .checkbox-icon {
+    background: url('../../../../assets/img/checkboxchecked.svg') no-repeat center center;
+    // background-size: contain;
   }

@@ -17,6 +17,10 @@ export class ContactformComponent {
     message: "",
     terms: false,
   }
+  
+  toggleTerms() {
+    this.contactData.terms = !this.contactData.terms;
+  }
 
   onSubmit(contactForm: NgForm){
 
