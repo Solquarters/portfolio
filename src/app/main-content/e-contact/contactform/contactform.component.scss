@@ -83,29 +83,22 @@ button[disabled]:hover {
   }
 
 
-
-
-  ////////////////////////////////////
   .custom-checkbox {
     display: flex;
     align-items: center;
-    // flex-wrap: wrap;
     cursor: pointer;
     user-select: none;
     margin: 8px 0px;
   }
   
   .checkbox-icon {
-   
     border-radius: 50%;
     width: 28px;
-      height: 28px;
+    height: 28px;
     margin: 0px 10px 0px 0px;
     background: url('../../../../assets/img/checkboxempty.svg') no-repeat center center;
-    // background-size: contain;
     flex-shrink: 0;
     transition: background 0.3s ease;
-
     &:hover{
       background-color: #183771;
     }
