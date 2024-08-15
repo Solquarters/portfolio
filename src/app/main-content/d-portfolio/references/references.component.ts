@@ -15,13 +15,13 @@ export class ReferencesComponent {
 
   slides = [
     { 
-      text: "Der Roman ist super cool drauf und ist immer sehr nett, ich war bei den beiden Gruppenarbeiten, die wir bis jetzt hatten mit Roman in einer Gruppe und mir hat es sehr geholfen, jedes Mal, wenn ich etwas nicht wusste und Fragen hatte da war Roman immer für mich da und hat mir alles sehr ausführlich erklärt und gezeigt, ich habe sehr viel von Roman gelernt. Egal welche Probleme man hatte, Roman hat es innerhalb einer kurzen Zeit gelöst!", 
+      text: "Der Roman ist super cool drauf und ist immer sehr nett. In beiden Gruppenprojekten, die wir bis jetzt gemeinsam hatten, war er jedes Mal, wenn ich etwas nicht wusste, für mich da und hat mir alles sehr ausführlich erklärt und gezeigt. Ich habe sehr viel von Roman gelernt. Egal welche Probleme man hatte, Roman hat es innerhalb einer kurzen Zeit gelöst!", 
       author: "Oleg Wenner - Join Team Partner", 
       image: '../../../assets/img/portfolio screenshots/openapiprojectlaptoppng.png', 
       alt: 'Oleg Wenner - Join Team Partner' 
     },
     { 
-      text: "Roman ist eine äußerst zuverlässige und lösungsorientierte Person. Er zeichnet sich durch Ruhe in kritischen Situationen aus. Er ist stets motiviert und engagiert. Die Zusammenarbeit mit ihm macht großen Spaß, . Roman kann stundenlang fokussiert arbeiten und ist dabei immer hilfsbereit. Seine Unterstützung und sein Einsatz sind von unschätzbarem Wert.", 
+      text: "Roman ist eine äußerst zuverlässige und lösungsorientierte Person. Er zeichnet sich durch Ruhe in kritischen Situationen aus. Er ist stets motiviert und engagiert. Die Zusammenarbeit mit ihm macht großen Spaß. Roman kann stundenlang fokussiert arbeiten und ist dabei immer hilfsbereit. Seine Unterstützung und sein Einsatz sind von unschätzbarem Wert.", 
       author: "Maurice Preißler - Join Team Partner", 
       image: '../../../assets/img/mauricePreissler.jpg', 
       alt: 'Maurice Preißler - Join Team Partner' 

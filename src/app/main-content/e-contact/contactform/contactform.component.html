@@ -1,0 +1,38 @@
+
+
+    <form (ngSubmit)="onSubmit(contactForm)" #contactForm = "ngForm">
+  
+      <!-- <label for="name">Your name</label> -->
+      <input #nameModel="ngModel"  [(ngModel)]="contactData.name" type="text" id="name" name="name" placeholder="Your name" required>
+
+      @if (!nameModel.valid && nameModel.touched){
+        <span>Please enter a fullname.</span>
+        }
+  
+      <!-- <label  for="email">Your email</label> -->
+      <input #emailModel="ngModel" [(ngModel)]="contactData.email" type="text" id="email" name="email" placeholder="Your email" required pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}">
+
+      @if (!emailModel.valid && emailModel.touched){
+        <span>Please enter a valid email.</span>
+        }
+  
+      <!-- <label for="message">Subject</label> -->
+      <textarea #message="ngModel" minlength="4" [(ngModel)]="contactData.message" id="message" name="message" placeholder="Your message" style="height:200px" required></textarea>
+  
+        @if (!message.valid && message.touched){
+            <span>Please enter a message</span>
+        }
+
+        <label for="terms">
+          <input #termsModel="ngModel" [(ngModel)]="contactData.terms" type="checkbox" id="terms" name="terms" required>
+          I've read the <a href="" style="color: #9747FF; text-decoration: none">privacy policy</a> and agree to the processing of my data as outlined.
+        </label>
+        <div *ngIf="!termsModel.valid && termsModel.touched">
+          <span>Please accept the privacy policy.</span>
+        </div>
+        
+        <div style="display:flex; justify-content: center; width: 100%"> <button type="submit">Send message</button></div>
+     
+  
+    </form>
+

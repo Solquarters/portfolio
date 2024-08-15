@@ -1,0 +1,72 @@
+form{
+    display: flex;
+    flex-direction: column;
+  
+  >textarea{
+    font-family: 'Poppins';
+    color: white;
+    background-color: #141D2F;
+    border: 2px solid #9747FF; 
+      border-radius: 12px;
+  }
+ 
+
+
+  /* Style the input and textarea when they are focused */
+  input:focus, textarea:focus {
+  border-color: rgb(123, 255, 0); /* Change this to your desired color */
+  outline: none; /* Removes the default outline, if you don't want it */
+}
+
+
+
+
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], textarea {
+
+    font-family: 'Poppins';
+    color: white;
+    border: 2px solid #9747FF; 
+    border-radius: 12px;
+    background-color: #141D2F;
+
+   
+    padding: 12px; /* Some padding */ 
+    
+    
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+   margin: 8px 0px;
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+
+  button{
+    width: 260px;
+    font-size: 24px;
+        font-family: 'Poppins';
+        color: white;
+        padding: 16px 32px;
+        border-radius: 16px;
+        border: none;
+        background-color: #70E61C;;
+        cursor: pointer;
+        transition: transform 100ms ease, background-color 150ms ease;
+
+        margin: 32px 0px;
+
+        &:hover{
+            background-color:#9747FF ;
+            transform: scale(1.2, 1.1) translateY(5%);
+          
+        }
+  }
+
+  span{
+    font-family: 'Poppins';
+    color: red;
+    font-weight: 300;
+    color: red;
+  }
