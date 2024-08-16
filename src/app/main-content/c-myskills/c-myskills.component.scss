@@ -84,26 +84,29 @@ gap: 32px;
     }
 
     >div{
-        >button{
-            font-size: 24px;
-            font-family: 'Poppins';
-            color: white;
-            padding: 16px 32px;
-            border-radius: 16px;
-            border: none;
-            background-color: #70E61C;;
-            cursor: pointer;
-            transition: transform 100ms ease, background-color 150ms ease;
-    
-            margin: 32px 0px;
-    
-            &:hover{
-                background-color:#9747FF ;
-                transform: scale(1.2, 1.1) translateY(5%);
-              
+        >a{
+            >button{
+                font-size: 24px;
+                font-family: 'Poppins';
+                color: white;
+                padding: 16px 32px;
+                border-radius: 16px;
+                border: none;
+                background-color: #70E61C;;
+                cursor: pointer;
+                transition: transform 100ms ease, background-color 150ms ease;
+        
+                margin: 32px 0px;
+        
+                &:hover{
+                    background-color:#9747FF ;
+                    transform: scale(1.2, 1.1) translateY(5%);
+                  
+                }
+                
             }
-            
         }
+       
     }
    
 }
