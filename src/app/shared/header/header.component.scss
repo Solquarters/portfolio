@@ -115,7 +115,7 @@ user-select: none;
       bottom: 5px;
       width: 0;
       height: 1px; /* Thickness of the underline */
-      background: linear-gradient(to right, white 60%, #17c900 100% );
+      background: linear-gradient(to right, #17c900 60%, white 100% );
       transition: width 0.3s ease; 
     }
   

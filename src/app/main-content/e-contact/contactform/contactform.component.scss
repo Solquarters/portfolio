@@ -107,4 +107,7 @@ button[disabled]:hover {
   .custom-checkbox.checked .checkbox-icon {
     background: url('../../../../assets/img/checkboxchecked.svg') no-repeat center center;
     // background-size: contain;
+    &:hover{
+      background-color: #183771;
+    }
   }

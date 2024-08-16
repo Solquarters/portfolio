@@ -129,14 +129,14 @@
         justify-content: flex-start;
     
         >h1{
-            font-size: clamp(16px, 10vw, 90px);
+            font-size: clamp(14px, 9vw, 90px);
             margin: 0px;
             font-weight: 600;
             white-space: nowrap;
             line-height: calc(1vw + 1em);
         }
         >h2{
-            font-size: clamp(16px, 8vw, 64px);
+            font-size: clamp(14px, 7vw, 64px);
             font-weight: 400;
             margin: 0px;
             white-space: nowrap;
@@ -344,4 +344,45 @@
        
     }
 
+
+
+    .welcomeTextDivClass{
+       
+    
+    
+        > div:nth-of-type(1){
+            transform: rotate(-90deg);
+            
+            
+            width: 2vh;
+    
+            >h2{
+               
+                font-size: clamp(16px, 8vw, 68px);
+               
+                white-space: nowrap;
+                padding: 0px 0px 3vw 0px;
+            }
+        }
+    
+        > div:nth-of-type(2){
+         
+        
+            >h1{
+                font-size: clamp(14px, 10vw, 90px);
+              
+                line-height: calc(1vw + 1em);
+            }
+            >h2{
+                font-size: clamp(14px, 8vw, 64px);
+        
+                line-height: calc(0.8vw + 1em);
+            }
+        }
+    }
+
 }
+
+
+
+

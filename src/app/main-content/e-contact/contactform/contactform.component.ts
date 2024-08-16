@@ -31,7 +31,7 @@ termsAccepted : boolean = false;
   }
 
  
-  mailTest = true;
+  mailTest = false;
 
   post = {
     endPoint: 'https://roman-kabucov.de/sendMail.php',
