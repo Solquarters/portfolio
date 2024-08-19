@@ -1,6 +1,19 @@
 ////////////////////////////////////////
 
+.backgroundDiv{
+    position: absolute;
+    top:40%;
+    right:center;
+    width: 100%;
+    height: 100%;
 
+    z-index: 3;
+
+    >img{
+        width: 100%;
+        height: 80%;
+    }
+}
 
 ////////////////////////////////////////
 
@@ -8,6 +21,9 @@
 
 
 .motherDiv{
+    overflow: hidden;
+
+
     padding: 100px 0px 0px 0px;
     height: 97vh;
     width: 100vw;
@@ -17,16 +33,8 @@
     align-items: center;
     background-color: #141D2F;
 
-    background-image: url('../../../assets/img/28.\ Hero\ Background.png');
-    background-repeat: no-repeat;
 
-    
-    
-    background-size: 100% 20%;
-    background-position: 0% 60%;
-
-    position: relative;
-    z-index: 2;
+   
    
 }
 
@@ -51,6 +59,8 @@
 }
 
 .mainChild2DivClass{
+    position: relative;
+    z-index: 4;
     width: 100%;
     display: flex;
     align-items: center;
@@ -90,31 +100,70 @@
    
 }
 
-.mainImgDivClass{
-    position: relative;
-    z-index: 0;
-    padding: 20px 0px 0px 0px;
-    // border: 1px solid rgb(255, 255, 255);
-    border-radius: 32px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+// .mainImgDivClass{
+//     // position: relative;
+//     // z-index: 1;
+//     padding: 20px 0px 0px 0px;
+//     // border: 1px solid rgb(255, 255, 255);
+//     border-radius: 32px;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
    
->img{
+// >img{
     
-    height: 100%;
-    width:100%;
+//     height: 100%;
+//     width:100%;
    
-    object-fit: contain;
-}
+//     object-fit: contain;
+// }
 
 
-    background-image: url('../../../assets/img/29.\ photo\ shadows.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-size: 600px 600px;
-}
+//     background-image: url('../../../assets/img/29.\ photo\ shadows.png');
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     background-size: 600px 600px;
+// }
+
+
+////////////////////////////////////////////
+
+.image-container {
+    position: relative; // Ensure the container acts as a reference for absolutely positioned elements
+    max-width: 80%;
+    min-width: 315px ;
+    height: 75%;
+    overflow: visible; 
+    // overflow: hidden;
+  }
+  
+  .foreground-image {
+    position: relative; // This keeps the foreground image in the normal flow
+    z-index: 2; // Ensures the foreground image stays on top
+    width: 100%; // Example width, adjust as needed
+    height: auto; // Maintain aspect ratio
+  }
+  
+  .background-image {
+    position: absolute; // Allows positioning relative to the container
+    top: -80px; // Position the background image at the top
+    left: -30px; // Position the background image at the left
+    z-index: 1; // Places the background image behind the foreground image
+    width: 120%; // Example width larger than the container to overflow
+    height: auto; // Maintain aspect ratio
+  }
+
+
+
+
+
+
+////////////////////////////////////////////
+
+
+
+
 
 
 .welcomeTextDivClass{
@@ -122,6 +171,9 @@
     color:azure;
     width: 100%;
     justify-content: center;
+
+    position: relative;
+    z-index: 4;
 
 
     > div:nth-of-type(1){
@@ -168,6 +220,9 @@
 
 
 .textAndButtonDivClass{
+    position: relative;
+    z-index: 4;
+
     width: 48%;
     display: flex;
     flex-direction: column;
@@ -270,6 +325,23 @@
         }
     }
 
+
+
+    .backgroundDiv{
+        position: absolute;
+        top:39%;
+        right:center;
+        width: 100%;
+        height: 100%;
+    
+        z-index: 3;
+    
+        >img{
+            width: 100%;
+            height: 55%;
+        }
+    }
+
   }
 
   @media screen and (max-width: 945px) {
@@ -311,11 +383,47 @@
 
 
 
-   
+    // .backgroundDiv{
+    //     position: absolute;
+    //     top:42%;
+    //     right:center;
+    //     width: 100%;
+    //     height: 100%;
+    
+    //     z-index: 3;
+    
+    //     >img{
+    //         width: 100%;
+    //         height: 40%;
+    //     }
+    // }
         
 
 
   }
+
+
+
+
+  @media screen and (max-width: 780px) {
+    .backgroundDiv{
+        position: absolute;
+        top:40%;
+        right:center;
+        width: 100%;
+        height: 100%;
+    
+        z-index: 3;
+    
+        >img{
+            width: 100%;
+            height: 40%;
+        }
+    }
+
+
+  }
+
 
 
   @media screen and (max-width: 700px) {
@@ -329,6 +437,23 @@
 }
   }
 
+
+
+  .backgroundDiv{
+    position: absolute;
+    top:43%;
+    right:center;
+    width: 100%;
+    height: 100%;
+
+    z-index: 3;
+
+    >img{
+        width: 100%;
+        height: 32%;
+    }
+}
+
 }
 
 
@@ -341,8 +466,38 @@
        
     }
 
+    .backgroundDiv{
+        position: absolute;
+        top:36%;
+        right:center;
+        width: 100%;
+        height: 100%;
+    
+        z-index: 3;
+    
+        >img{
+            width: 100%;
+            height: 35%;
+        }
+    }
+
 }
 
+
+
+
+
+@media screen and (max-width: 500px) {
+
+    .backgroundDiv{
+        position: absolute;
+        top:41%;
+    
+        >img{
+            height: 20%;
+        }
+    }
+}
 
 
 
@@ -354,6 +509,25 @@
        
     }
 
+
+    .backgroundDiv{
+        
+        top:38%;
+    
+        >img{
+            width: 100%;
+            height: 20%;
+        }
+    }
+
+
+
+    .background-image {
+        top: -50px; 
+        left: -20px; 
+
+      }
+    
 }
 
 
@@ -401,6 +575,19 @@
         
                 line-height: calc(0.8vw + 1em);
             }
+        }
+    }
+
+
+
+    
+    .backgroundDiv{
+        
+        top:32%;
+    
+        >img{
+            width: 100%;
+            height: 20%;
         }
     }
 
