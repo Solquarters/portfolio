@@ -25,7 +25,7 @@ export class DPortfolioComponent {
     {
       name: "El Pollo Loco",
       toolsUsed: "JavaScript | HTML | CSS",
-      description: "Jump, run and throw game based on object-oriented approach. Help Pepe to find coins and tabasco salsa to fight against the crazy hen.",
+      description: "Working with collision detection and image based animations. Jump, run and throw game based on an object-oriented approach. Help Pepe to find coins and tabasco salsa to fight against the crazy hen.",
       liveTestUrl: "https://pollo-loco.roman-kabucov.de",
       githubLink: "https://github.com/Solquarters/07_08_PolloLoco",
       imgSource: "../../../assets/img/portfolio screenshots/pollolocolaptoppng.png",
@@ -34,7 +34,7 @@ export class DPortfolioComponent {
     {
       name: "Pokédex",
       toolsUsed: "JavaScript | HTML | CSS | API",
-      description: "Based on the PokéAPI a simple library that provides and catalogues pokemon information.",
+      description: "Fetching and visualizing API Data in a user friendly manner. Based on the PokéAPI a simple library that provides and catalogues pokemon information including an evolution tree and individual stats.",
       liveTestUrl: "https://pokedex-api.roman-kabucov.de/",
       githubLink: "https://github.com/Solquarters/06_03_Projekt_Pokedex",
       imgSource: "../../../assets/img/portfolio screenshots/pokemonlaptoppng.png",
