@@ -2,8 +2,8 @@
 
 .backgroundDiv{
     position: absolute;
-    top:40%;
-    right:center;
+    top:clamp(30%, 80vw, 45%);
+    // right:center;
     width: 100%;
     height: 100%;
 
@@ -11,7 +11,7 @@
 
     >img{
         width: 100%;
-        height: 80%;
+        height: 50%;
     }
 }
 
@@ -25,7 +25,7 @@
 
 
     padding: 100px 0px 0px 0px;
-    height: 97vh;
+    min-height: 100vh;
     width: 100vw;
     user-select: none;
     display: flex;
@@ -264,8 +264,27 @@
        
     }
 
+
+
 }
 
+
+
+
+@media screen and (min-width: 1481px) {
+    .backgroundDiv{
+      
+        top:clamp(30%, 35vw, 58%);
+       
+    
+        >img{
+            width: 100%;
+            height: 50%;
+        }
+    }
+
+
+}
 
 
 @media screen and (min-width: 782px) {
@@ -327,20 +346,20 @@
 
 
 
-    .backgroundDiv{
-        position: absolute;
-        top:39%;
-        right:center;
-        width: 100%;
-        height: 100%;
+    // .backgroundDiv{
+    //     position: absolute;
+    //     top:32%;
+    //     right:center;
+    //     width: 100%;
+    //     height: 100%;
     
-        z-index: 3;
+    //     z-index: 3;
     
-        >img{
-            width: 100%;
-            height: 55%;
-        }
-    }
+    //     >img{
+    //         width: 100%;
+    //         height: 55%;
+    //     }
+    // }
 
   }
 
@@ -382,47 +401,16 @@
     }
 
 
-
-    // .backgroundDiv{
-    //     position: absolute;
-    //     top:42%;
-    //     right:center;
-    //     width: 100%;
-    //     height: 100%;
-    
-    //     z-index: 3;
-    
-    //     >img{
-    //         width: 100%;
-    //         height: 40%;
-    //     }
-    // }
+    .backgroundDiv{
+   
+        top:clamp(25%, 80vw, 38%);
+    }
         
 
 
   }
 
 
-
-
-  @media screen and (max-width: 780px) {
-    .backgroundDiv{
-        position: absolute;
-        top:40%;
-        right:center;
-        width: 100%;
-        height: 100%;
-    
-        z-index: 3;
-    
-        >img{
-            width: 100%;
-            height: 40%;
-        }
-    }
-
-
-  }
 
 
 
@@ -439,20 +427,7 @@
 
 
 
-  .backgroundDiv{
-    position: absolute;
-    top:43%;
-    right:center;
-    width: 100%;
-    height: 100%;
 
-    z-index: 3;
-
-    >img{
-        width: 100%;
-        height: 32%;
-    }
-}
 
 }
 
@@ -466,38 +441,13 @@
        
     }
 
-    .backgroundDiv{
-        position: absolute;
-        top:36%;
-        right:center;
-        width: 100%;
-        height: 100%;
-    
-        z-index: 3;
-    
-        >img{
-            width: 100%;
-            height: 35%;
-        }
-    }
-
+  
+        
 }
 
 
 
 
-
-@media screen and (max-width: 500px) {
-
-    .backgroundDiv{
-        position: absolute;
-        top:41%;
-    
-        >img{
-            height: 20%;
-        }
-    }
-}
 
 
 
@@ -509,17 +459,15 @@
        
     }
 
-
     .backgroundDiv{
-        
-        top:38%;
-    
+   
+        top:clamp(45%, 50vw, 65%);
         >img{
-            width: 100%;
-            height: 20%;
+          
+            height: 30%;
         }
     }
-
+        
 
 
     .background-image {
@@ -581,15 +529,15 @@
 
 
     
-    .backgroundDiv{
+    // .backgroundDiv{
         
-        top:32%;
+    //     top:32%;
     
-        >img{
-            width: 100%;
-            height: 20%;
-        }
-    }
+    //     >img{
+    //         width: 100%;
+    //         height: 20%;
+    //     }
+    // }
 
 }
 
