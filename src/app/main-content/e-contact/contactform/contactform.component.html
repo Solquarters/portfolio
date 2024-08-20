@@ -53,13 +53,19 @@
         'background-repeat': 'no-repeat',
         'background-position': 'calc(100% - 12px) calc(0% + 12px)',
         'background-size': '20px 20px'
-      }" required></textarea>
+      }" required>
+      
+    </textarea>
   
         @if (!message.valid && message.touched){
             <span>Please enter a message</span>
         }
 
         
+        <div *ngIf="popupVisible" class="popup-container" [ngClass]="{'fade-in': fadeIn, 'fade-out': fadeOut}">
+          <p>{{ popupMessage }}</p>
+        </div>
+
         <div class="custom-checkbox" (click)="toggleTerms()" [class.checked]="termsAccepted">
           <span class="checkbox-icon"></span>
           <div>I've read the &nbsp;<a href="/privacy-policy" style="color: #9747FF; text-decoration: none"> privacy policy </a>&nbsp; and agree to the processing of my data as outlined.</div>
@@ -72,17 +78,10 @@
         
         <div style="display:flex; justify-content: center; width: 100%"><button type="submit" [disabled]="!contactForm.valid || !termsAccepted">Send message</button></div>
      
-  
+
+ 
+         
+
     </form>
 
 
-
-
-
-    <!-- <label for="terms">
-          <input #termsModel="ngModel" [(ngModel)]="contactData.terms" type="checkbox" id="terms" name="terms" required>
-          I've read the <a href="" style="color: #9747FF; text-decoration: none">privacy policy</a> and agree to the processing of my data as outlined.
-        </label>
-        <div *ngIf="!termsModel.valid && termsModel.touched">
-          <span>Please accept the privacy policy.</span>
-        </div> -->

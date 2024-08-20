@@ -409,7 +409,11 @@
 
 
 @media screen and (max-width: 420px) {
- 
+    .motherDiv{
+        
+        padding: 100px 0px 0px 0px;
+        // background-position: 50% 50%;
+    }
     .backgroundDiv{
       
         top: 42%;
@@ -434,7 +438,7 @@
 
 
 @media screen and (max-width: 350px) {
- 
+    
 
 
     .welcomeTextDivClass{
