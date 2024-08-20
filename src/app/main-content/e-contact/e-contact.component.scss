@@ -35,9 +35,13 @@ color: white;
         font-weight: 600;
         margin: 0px;
         white-space: nowrap;
+        position: relative;
+        z-index: 3;
        
     }
     >p{
+        position: relative;
+        z-index: 3;
         width: 90%;
     }
 }

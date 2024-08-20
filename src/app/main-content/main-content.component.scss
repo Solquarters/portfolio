@@ -18,8 +18,8 @@
 .colorSpot1{
     position: absolute;
     z-index: 2;
-    left: 78%;
-    top: 18.5%;
+    left: 68%;
+    top: 15%;
     width: auto;
     height: auto;
     overflow: hidden;
@@ -31,7 +31,7 @@
     position: absolute;
     z-index: 2;
     right: 80%;
-    top: 27%;
+    top: 23%;
     width: auto;
     height: auto;
     overflow: hidden;
@@ -40,8 +40,8 @@
 .colorSpot3{
     position: absolute;
     z-index: 2;
-    left: 85%;
-    top: 50%;
+    left: 80%;
+    top: 40%;
     width: auto;
     height: auto;
     overflow: hidden;
@@ -52,10 +52,41 @@
 .colorSpot4{
     position: absolute;
     z-index: 2;
-    right: 85%;
-    top: 75%;
+    right: 75%;
+    top: 87%;
     width: auto;
     height: auto;
     overflow: hidden;
-    transform: rotate(-105deg);
+    transform: rotate(-120deg);
+}
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+
+
+    .colorSpot1{left: 58%;}
+    .colorSpot2{right: 70%;}
+    .colorSpot3{left: 70%;}
+    .colorSpot4{right: 60%;}
+ 
+
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+
+    .colorSpot1{left: 40%;}
+    .colorSpot2{right: 63%;}
+    .colorSpot3{left: 60%;}
+    .colorSpot4{right: 50%;}
+ 
+
+
+
 }

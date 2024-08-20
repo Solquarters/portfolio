@@ -18,6 +18,7 @@
 
 
 .mainSkillsDivClass{
+   
     max-width: 1800px;
     // height: 50vh;
     background-color: #141D2F;
@@ -48,6 +49,9 @@ gap: 32px;
     &:hover{
         scale: (1.2);
     }
+
+    position: relative;
+    z-index: 3;
 
 }
 
@@ -169,16 +173,20 @@ gap: 32px;
 
 
 .hover-container {
-    position: relative; /* Ensures hover-div is positioned relative to this container */
+    position: relative;
+    z-index: 3; /* Ensures hover-div is positioned relative to this container */
     display: inline-block;
     
     >img{
-        
+        position: relative;
+        z-index: 4;
         width: clamp(16px, 18vw, 90px);
         transition: all 200ms ease;
         &:hover{
             scale: (1.2);
         }
+
+
     
     }
 }
