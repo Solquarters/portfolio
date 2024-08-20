@@ -1,3 +1,13 @@
+[data-aos] {
+    pointer-events: none;
+    &.aos-animate {
+      pointer-events: auto;
+    }
+  }
+  .aos-init[data-aos][data-aos].aos-animate {
+    transform: unset;
+}
+
 
 .mySkillsMotherDiv{
 
@@ -32,6 +42,7 @@
 
 
 .mainChild1DivClass{
+    transform-style: preserve-3d;
     position: relative;
     z-index: 3;
 width: 50%;
@@ -44,14 +55,15 @@ gap: 32px;
 
 
 >img{
+    position: relative;
+    z-index: 4;
     width: clamp(16px, 18vw, 90px);
     transition: all 200ms ease;
     &:hover{
         scale: (1.2);
     }
 
-    position: relative;
-    z-index: 3;
+   
 
 }
 
@@ -174,7 +186,7 @@ gap: 32px;
 
 .hover-container {
     position: relative;
-    z-index: 3; /* Ensures hover-div is positioned relative to this container */
+    z-index: 5; /* Ensures hover-div is positioned relative to this container */
     display: inline-block;
     
     >img{

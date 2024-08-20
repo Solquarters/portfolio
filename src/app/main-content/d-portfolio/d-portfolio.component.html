@@ -12,17 +12,25 @@
 <!-- AB HIER FOR SCHLEIFE -->
 
 @for(singleProject of projects; track $index){
-    <div class="singleProjectMainDiv">
+    <div class="singleProjectMainDiv" >
 
-        <div class="singleProjectChildDiv1">
+        <div [attr.data-aos]="$index % 2 === 0 ? 'zoom-in-right' : 'zoom-in-left'" 
+        data-aos-delay="300"
+    data-aos-duration="1000"
+    data-aos-anchor-placement="center"
+        class="singleProjectChildDiv1" >
             <img src="{{singleProject.imgSource}}" alt="" 
             [class.scaled]="isScaled"
             (touchstart)="onTouchStart()"
             (touchend)="onTouchEnd()"
-            (touchcancel)="onTouchEnd()">
+            >
         </div>
         
-        <div class="singleProjectChildDiv2">
+        <div [attr.data-aos]="$index % 2 === 0 ? 'zoom-in-left' : 'zoom-in-right'" 
+        data-aos-delay="300"
+        data-aos-duration="1000"
+        data-aos-anchor-placement="center"
+        class="singleProjectChildDiv2" >
             <h2>{{singleProject.name}}</h2>
             <h2>{{singleProject.toolsUsed}}</h2>
 

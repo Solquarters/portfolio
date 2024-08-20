@@ -4,6 +4,8 @@ import { RouterOutlet } from '@angular/router';
 import { MainContentComponent } from './main-content/main-content.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { HeaderComponent } from "./shared/header/header.component";
+import AOS from 'aos';
+// import AOS from "aos";
 
 @Component({
   selector: 'app-root',
@@ -14,4 +16,9 @@ import { HeaderComponent } from "./shared/header/header.component";
 })
 export class AppComponent {
   title = 'portfolio';
+
+  
+  ngOnInit(){
+    AOS.init();
+  }
 }

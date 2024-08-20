@@ -9,6 +9,7 @@ body{
 }
 
 
+
 /* poppins-100 - latin */
 @font-face {
     font-display: swap; 
@@ -83,3 +84,9 @@ body{
 //   }
 
 
+[data-aos] {
+  pointer-events: none;
+  &.aos-animate {
+    pointer-events: auto;
+  }
+}

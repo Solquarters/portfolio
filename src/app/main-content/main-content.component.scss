@@ -12,7 +12,9 @@
    position: relative;
 }
 
-
+.aos-init[data-aos][data-aos].aos-animate {
+    transform: unset;
+    }
 
 
 .colorSpot1{
@@ -28,14 +30,21 @@
 
 
 .colorSpot2{
+    transform-style: preserve-3d;
     position: absolute;
-    z-index: 2;
+    z-index: 0;
     right: 80%;
-    top: 23%;
+    top: 30%;
     width: auto;
     height: auto;
     overflow: hidden;
+    >img{
+        position: relative;
+        z-index: -1;
+    }
 }
+
+
 
 .colorSpot3{
     position: absolute;
