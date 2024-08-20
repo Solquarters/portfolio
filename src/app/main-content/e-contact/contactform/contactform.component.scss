@@ -8,9 +8,15 @@ form{
     background-color: #141D2F;
     border: 2px solid #9747FF; 
       border-radius: 12px;
+
+      position: relative;
+      z-index: 3;
   }
  
-
+>input{
+  position: relative;
+  z-index: 3;
+}
 
   /* Style the input and textarea when they are focused */
   input:focus, textarea:focus {
@@ -40,6 +46,7 @@ input[type=text], textarea {
     box-sizing: border-box; /* Make sure that padding and width stays in place */
    margin: 8px 0px;
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+
   }
   
 
