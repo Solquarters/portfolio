@@ -64,6 +64,8 @@
 
 
 .singleProjectMainDiv{
+    position: relative;
+    z-index: 3;
     display: flex;
 width: 95%;
 

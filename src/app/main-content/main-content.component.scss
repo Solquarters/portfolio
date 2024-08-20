@@ -7,10 +7,55 @@
     width: 100%;
 
 
+    overflow: hidden;
 
-   
+   position: relative;
 }
 
 
 
 
+.colorSpot1{
+    position: absolute;
+    z-index: 2;
+    left: 78%;
+    top: 18.5%;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    transform: rotate(45deg);
+}
+
+
+.colorSpot2{
+    position: absolute;
+    z-index: 2;
+    right: 80%;
+    top: 27%;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
+
+.colorSpot3{
+    position: absolute;
+    z-index: 2;
+    left: 85%;
+    top: 50%;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    transform: rotate(-105deg);
+}
+
+
+.colorSpot4{
+    position: absolute;
+    z-index: 2;
+    right: 85%;
+    top: 75%;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    transform: rotate(-105deg);
+}

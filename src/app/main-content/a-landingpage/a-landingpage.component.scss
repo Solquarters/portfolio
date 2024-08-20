@@ -1,26 +1,10 @@
-////////////////////////////////////////
 
-.backgroundDiv{
-    position: absolute;
-    top: 53%;
-    
-    width: 100%;
-    height: 100vh;
-
-    z-index: 3;
-
-    >img{
-        width: 100%;
-        height: 50%;
-    }
-}
-
-////////////////////////////////////////
 
 
 
 
 .motherDiv{
+    position: relative;
     overflow: hidden;
 
 
@@ -38,6 +22,29 @@
    
    
 }
+
+
+
+////////////////////////////////////////
+
+.backgroundDiv{
+    position: absolute;
+    top: 40%;
+    
+    width: 100%;
+    height: 100vh;
+
+    z-index: 3;
+
+    >img{
+        width: 100%;
+        height: 50%;
+    }
+
+    
+}
+
+////////////////////////////////////////
 
 .mainLandingPageDivClass{
     max-width: 1800px;
@@ -380,7 +387,7 @@
 
     .backgroundDiv{
       
-        top: 42%;
+        top: 38%;
      
     }
         
@@ -405,7 +412,7 @@
 
   .backgroundDiv{
       
-    top: 45%;
+    top: 40%;
     >img{
      
         height: 30%;
@@ -448,7 +455,7 @@
 
     .backgroundDiv{
       
-        top: 48%;
+        top: 42%;
         >img{
          
             height: 20%;

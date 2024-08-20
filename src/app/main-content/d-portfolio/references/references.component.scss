@@ -1,6 +1,7 @@
 /* Container for the slideshow */
 .slideshow-container {
-
+position: relative;
+z-index: 3;
     width: 100%;
     min-height: 300px;
     display: flex;

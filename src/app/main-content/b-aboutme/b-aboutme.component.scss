@@ -1,4 +1,5 @@
 .aboutMeMotherDiv{
+    
     padding: 150px 0px 0px 0px;
     // height: 100vh;
     
@@ -61,6 +62,8 @@
 
 
 .mainChild2{
+    position: relative;
+    z-index: 3;
     display: flex;
     align-items: center;
     justify-content: center;
