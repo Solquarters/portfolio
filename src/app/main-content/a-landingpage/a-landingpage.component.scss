@@ -8,7 +8,7 @@
     // overflow: hidden;
 
 
-    padding: 100px 0px 0px 0px;
+    padding: 140px 0px 0px 0px;
     min-height: 100vh;
     // height: 100%;
     width: 100vw;
@@ -20,7 +20,7 @@
     justify-content: center;
 
 
-    box-sizing: border-box
+    box-sizing: border-box;
    
 }
 
@@ -294,7 +294,7 @@
 
     .motherDiv{
         
-        padding: 100px 0px 0px 0px;
+        padding: 140px 0px 0px 0px;
         // background-position: 50% 50%;
     }
 
@@ -403,32 +403,13 @@
 
 
 
-@media screen and (max-width: 600px) {
-    .motherDiv{
-      
-        // height: 87vh;
-    // background-position: 0% 55%;
-       
-    }
-
-  
-        
-}
-
-
 
 
 
 
 
 @media screen and (max-width: 420px) {
-    .motherDiv{
-      
-        // height: 85vh;
-    
-       
-    }
-
+ 
     .backgroundDiv{
       
         top: 42%;
@@ -453,13 +434,7 @@
 
 
 @media screen and (max-width: 350px) {
-    .motherDiv{
-      
-        // height: 70vh;
-    
-       
-    }
-
+ 
 
 
     .welcomeTextDivClass{
@@ -503,7 +478,7 @@
 
 
 
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 650px) {
 
 
     .backgroundDiv{display: none;}
