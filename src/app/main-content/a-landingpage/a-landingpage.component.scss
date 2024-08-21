@@ -78,16 +78,17 @@
 }
 
 .horizontLineClass{
-    width: 200px;
+    width: 220px;
     height: 4px;
     background-color: #9747FF;
+    margin: 0px 32px 0px 0px;
 }
 
 .linksDivClass{
     display: flex;
     align-items: center;
-    gap: 24px;
-    margin: 0px 0px 0px 32px;
+    gap: 32px;
+    // margin: 0px 0px 0px 32px;
 
     >a{
         width: 48px;
@@ -104,7 +105,7 @@
 
 
     >a:nth-child(4){
-        width: 200px;
+        width: 210px;
     }
    
 }
@@ -253,7 +254,11 @@
      
     }
     
-
+    .mainChild2DivClass{
+       
+        padding: 80px 0px 0px 38px;
+        
+    }
 
 }
 

@@ -5,10 +5,21 @@
     justify-content: space-around;
     align-items: center;
 
-    >p{color: white}
+   
 
     padding: 32px 16px;
 }
+
+
+.maxWidthClass{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1800px;
+    align-items: center;
+    width: 100%;
+    >p{color: white}
+}
+
 
 
 .nameLogoDivClass{
@@ -75,6 +86,7 @@
         align-items: center;
         // align-items: center;
         >a{color: white; text-decoration: none; cursor: pointer; font-weight: 200;}
+        padding: 0px 38px;
     }
 
 
@@ -82,7 +94,7 @@
         display: flex;
         align-items: center;
         gap: 24px;
-        
+        padding: 0px 38px;
     
         >a{
             width: 48px;
@@ -111,7 +123,7 @@
     @media screen and (max-width: 700px) {
 
 
-        .mainFooterDiv{
+        .maxWidthClass{
             flex-direction: column;
             gap: 32px;
             padding: 40px 16px;
