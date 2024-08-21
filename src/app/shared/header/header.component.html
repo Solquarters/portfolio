@@ -12,10 +12,12 @@
             </div>
         
             <div class="navbarDivClass">
-                <a href="#about-me" class="underline-link">About me</a>
-                <a href="#skills" class="underline-link">Skills</a>
+                <a href="#about-me" class="underline-link">{{"about me" | translate }}</a>
+                <a href="#skills" class="underline-link">{{"skills" | translate }}</a>
                 <a href="#portfolio" class="underline-link">Portfolio</a>
-                
+             
+                <button (click)="translate.switchLanguage('en')">EN</button>
+                <button (click)="translate.switchLanguage('de')">DE</button>
             </div>
 
             <div class="mainMobileMenuDiv">
@@ -25,6 +27,11 @@
                     <a href="#skills">Skills</a>
                     <a href="#portfolio" >Portfolio</a>
                     <a href="#contact">Contact</a>
+                    
+                    
+                    <a > <button (click)="translate.switchLanguage('en')">EN</button>
+                        <button (click)="translate.switchLanguage('de')">DE</button></a>
+                   
                   </div>
                   
                   <div id="burger-menu" class="burger-menu" (click)="toggleMenu()" [class.active]="isMenuActive">
