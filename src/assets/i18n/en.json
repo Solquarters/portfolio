@@ -46,7 +46,8 @@
     "valid-message-request":"Please enter a message." ,
     "privacy4" : "Please accept the privacy policy.",
     "successMessage": "Your message has been sent successfully!"
-    , "testMessage": "Sent test."
+    , "testMessage": "Sent test.",
+    "legalnotice":"Legal notice"
 
     
             

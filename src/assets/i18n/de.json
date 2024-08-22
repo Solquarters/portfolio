@@ -41,7 +41,8 @@
 ,"valid-message-request":"Bitte eine Nachricht eingeben." 
 ,"privacy4" : "Bitte akzeptieren Sie die Datenschutzerklärung.",
 "successMessage": "Ihre Nachricht wurde erfolgreich gesendet!"
-, "testMessage": "Test gesendet."
+, "testMessage": "Test gesendet.",
+"legalnotice":"Impressum"
 }
 
 
