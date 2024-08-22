@@ -65,19 +65,22 @@ color: white;
     padding: 16px 0;
     align-items: center;
   
-    > svg {
-      cursor: pointer;
-      
-      &:hover {
-        rect {
-          stroke: #70E61C;
-        }
-  
-        path {
-          fill: #70E61C;
-        }
-      }
+    >a{
+        > svg {
+            cursor: pointer;
+            
+            &:hover {
+              rect {
+                stroke: #70E61C;
+              }
+        
+              path {
+                fill: #70E61C;
+              }
+            }
+          }
     }
+    
   }
 
 
