@@ -11,7 +11,7 @@
 
     <p data-aos="fade-up" data-aos-delay="300"
     data-aos-duration="1000"
-    >Explore a selection of my work here - Interact with projects to see my skills in action.</p>
+    >{{"portfolio-p1" | translate }}</p>
 
 <!-- AB HIER FOR SCHLEIFE -->
 
@@ -38,8 +38,9 @@
             <h2>{{singleProject.name}}</h2>
             <h2>{{singleProject.toolsUsed}}</h2>
 
-            <p>{{singleProject.description}}</p>
-
+            <!-- <p>{{singleProject.description}}</p> -->
+            <p>{{ getTranslatedDescription(singleProject.descriptionKey) }}</p>
+            
             <div class="projectButtonDiv">
 
                 <a href="{{singleProject.liveTestUrl}}" target="_blank"><button  >Live Test</button></a>

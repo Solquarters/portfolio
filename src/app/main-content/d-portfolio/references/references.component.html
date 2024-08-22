@@ -2,7 +2,7 @@
 
     <div *ngFor="let slide of slides; let i = index" class="slide" [ngClass]="{'active': i === currentIndex}">
       <div class="referenceTextDivClass">
-        <span [ngClass]="{'active': i === currentIndex}">{{slide.text}} </span>
+        <span [ngClass]="{'active': i === currentIndex}">{{getTranslatedReference(slide.textKey)}} </span>
         
         <div class="authorDiv">
           <div class="horizontalSeperator"></div>

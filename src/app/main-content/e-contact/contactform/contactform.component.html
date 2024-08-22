@@ -10,7 +10,7 @@
   type="text" 
   id="name" 
   name="name" 
-  placeholder="Your name"
+  [placeholder]="'yourname'|translate"
   [ngStyle]="{
     'border': nameModel.invalid && nameModel.dirty ? '2px solid red' : (nameModel.valid ? '2px solid #70E61C' : ''), 
     'background-color': nameModel.valid ? '#141D2F' : '',
@@ -28,7 +28,7 @@
 
 
 
-      <input #emailModel="ngModel" [(ngModel)]="contactData.email" type="text" id="email" name="email" placeholder="Your email" 
+      <input #emailModel="ngModel" [(ngModel)]="contactData.email" type="text" id="email" name="email" [placeholder]="'youremail'|translate"
       [ngStyle]="{
         'border': emailModel.invalid && emailModel.dirty ? '2px solid red' : (emailModel.valid ? '2px solid #70E61C' : ''), 
         'background-color': emailModel.valid ? '#141D2F' : '',
@@ -44,7 +44,7 @@
         }
   
       <!-- <label for="message">Subject</label> -->
-      <textarea #message="ngModel" minlength="4" [(ngModel)]="contactData.message" id="message" name="message" placeholder="Your message" style="height:200px" 
+      <textarea #message="ngModel" minlength="4" [(ngModel)]="contactData.message" id="message" name="message" [placeholder]="'yourmessage'|translate" style="height:200px" 
       [ngStyle]="{
         'border': message.invalid && message.dirty ? '2px solid red' : (message.valid ? '2px solid #70E61C' : ''), 
         'background-color': message.valid ? '#141D2F' : '',
@@ -68,7 +68,7 @@
 
         <div class="custom-checkbox" (click)="toggleTerms()" [class.checked]="termsAccepted">
           <span class="checkbox-icon"></span>
-          <div>I've read the &nbsp;<a href="/privacy-policy" style="color: #9747FF; text-decoration: none"> privacy policy </a>&nbsp; and agree to the processing of my data as outlined.</div>
+          <div>{{"privacy1" | translate }} &nbsp;<a href="/privacy-policy" style="color: #9747FF; text-decoration: none"> {{"privacy2" | translate }} </a>&nbsp; {{"privacy3" | translate }}</div>
           
           
         </div>
@@ -76,7 +76,7 @@
           <span>Please accept the privacy policy.</span>
         </div>
         
-        <div style="display:flex; justify-content: center; width: 100%"><button type="submit" [disabled]="!contactForm.valid || !termsAccepted">Send message</button></div>
+        <div style="display:flex; justify-content: center; width: 100%"><button type="submit" [disabled]="!contactForm.valid || !termsAccepted">{{"sendmessage" | translate }}</button></div>
      
 
  

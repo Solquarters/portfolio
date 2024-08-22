@@ -29,6 +29,8 @@ export class TranslationService {
     this.translationChange.next();
   }
 
-
+  instant(key: string): string {
+    return this.translate.instant(key);
+  }
 
 }

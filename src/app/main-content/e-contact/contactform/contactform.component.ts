@@ -1,12 +1,14 @@
 import { CommonModule} from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { Component, inject } from '@angular/core';
+import { TranslationService } from '../../../translation.service';
 import { FormsModule, NgForm} from '@angular/forms';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-contactform',
   standalone: true,
-  imports: [FormsModule, CommonModule],
+  imports: [FormsModule, CommonModule, TranslateModule],
   templateUrl: './contactform.component.html',
   styleUrl: './contactform.component.scss'
 })
@@ -79,5 +81,13 @@ showPopup(message: string) {
       this.popupVisible = false;
     }, 1000); // Wait for fade-out animation to complete before hiding
   }, 8000); // Hide after 8 seconds
-}
+};
+
+
+translate = inject(TranslationService);
+
+
+
+
+
 }

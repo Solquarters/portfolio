@@ -1,9 +1,42 @@
 {
     "developer": "FRONTEND ENTWICKLER",
     "about me": "Über mich",
-    "skills": "Fähigkeiten",
+    "skills": "Skills",
     "i am": "Ich bin",
     "talkbutton": "Lass uns reden :)",
     "About me": "Über mich",
-    "about-text": "Willkommen auf meiner Seite. Ich bin ein deutschsprachiger zertifizierter Frontend-Entwickler aus der Nähe von Marburg. Mein Schwerpunkt liegt auf der Entwicklung von benutzer- und mobilfreundlichen Anwendungen. Es ist mir wichtig, stets mit den neuesten Technologien Schritt zu halten, dabei jedoch bewährte Praktiken und solide Grundprinzipien im Auge zu behalten, um Wartbarkeit, Skalierbarkeit und ein optimales Benutzererlebnis zu gewährleisten."
+    "about-text": "Willkommen auf meiner Seite. Ich bin ein deutschsprachiger zertifizierter Frontend-Entwickler aus der Nähe von Marburg. Mein Schwerpunkt liegt auf der Entwicklung von benutzer- und mobilfreundlichen Anwendungen. Es ist mir wichtig, stets mit den neuesten Technologien Schritt zu halten, dabei jedoch bewährte Praktiken und solide Grundprinzipien im Auge zu behalten, um Wartbarkeit, Skalierbarkeit und ein optimales Benutzererlebnis zu gewährleisten.",
+    "about-p1":"Ich kann effektiv vor Ort in Marburg aber auch ortsunabhängig arbeiten.",
+    "about-p2": "Mich zeichnet eine große Lernlust aus. Neue Arbeitsabläufe, Technologien und Problemlösungen motivieren mich, um kontinuierlich zu wachsen.",
+    "about-p3": "Ich verstehe mich als Teamplayer. Es ist mir wichtig dem Gesamtprojekt zu dienen, zuzuhören und das Projektteam mit allem, was ich mitbringe, zu unterstützen.",
+     "myskills-h1": "Skills",
+     "myskills-p1":"Ich habe Erfahrung in der Umsetzung von Projekten mit verschiedenen Frontend-Technologien und Konzepten gesammelt.",
+     "myskills-p2":"Suchen Sie ",
+     "myskills-span":"weitere Kompetenzen ",
+     "myskills-p3":"Kontaktieren Sie mich gerne. Ich freue mich darauf, mein bisheriges Wissen weiter auszubauen.",
+     "myskills-p4": "Erfahrung mit:",
+     "myskills-p5": "Ich habe Interesse an:",
+     "myskills-btn":"Kontakt",
+     "portfolio-p1": "Hier können Sie eine Auswahl meiner Arbeiten erkunden - interagieren Sie mit den Projekten, um meine Fähigkeiten in Aktion zu sehen.",
+     "portfolio.project1.description": "Ein Aufgabenmanager, inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mithilfe von Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu.",
+     "portfolio.project2.description": "Arbeiten mit Kollisionserkennung und bildbasierten Animationen. Ein Jump'n'Run-Spiel basierend auf Objektorientierung. Hilf Pepe, Münzen und Tabasco-Salsa zu finden, um gegen das verrückte Huhn zu kämpfen.",
+     "portfolio.project3.description": "Abrufen und Visualisieren von API-Daten über ein benutzerfreundliches Inteface. Basierend auf der PokéAPI, eine einfache Bibliothek, die Pokémon-Informationen einschließlich eines Evolutionsbaums und individueller Statistiken bereitstellt und katalogisiert.",
+     "portfolio.project4.description": "Ein Aufgabenmanager, inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mithilfe von Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu.",
+     "portfolio.project5.description": "Ein Aufgabenmanager, inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mithilfe von Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu.",
+     "portfolio.project6.description": "Diese mobile App dient als unterstützendes Werkzeug und hilft Musikschülern, Musiknotation jederzeit und überall auf mobilen Geräten zu lernen, um stetiges Wachstum zu fördern.",
+    "reference1": "\"Der Roman ist super cool drauf und ist immer sehr nett. Ich war in zwei Gruppenprojekten mit ihm beteiligt. Jedes Mal, wenn ich etwas nicht wusste und Fragen hatte, war Roman immer für mich da und hat mir alles sehr ausführlich erklärt und gezeigt, so habe ich sehr viel von ihm gelernt. Egal welche Probleme man hatte, Roman hat es innerhalb einer kurzen Zeit gelöst!\"",
+     "reference2": "\"Roman ist eine äußerst zuverlässige und lösungsorientierte Person. Er zeichnet sich durch Ruhe in kritischen Situationen aus. Er ist stets motiviert und engagiert. Die Zusammenarbeit mit ihm macht großen Spaß, . Roman kann stundenlang fokussiert arbeiten und ist dabei immer hilfsbereit. Seine Unterstützung und sein Einsatz sind von unschätzbarem Wert.\"",
+      "contact-h1": "Kontakt",
+      "contact-h2":" Haben Sie ein Problem, das gelöst werden muss?",
+      "contact-p1":"Kontaktieren Sie mich über dieses Formular. Ich freue mich darauf, von Ihnen zu hören, Ihre Projekte kennenzulernen und mit meiner Arbeit dazu beizutragen."
+     ,"yourname": "Ihr Name",
+     "youremail": "Ihre Emailadresse",
+     "yourmessage": "Ihre Nachricht",
+     "privacy1": "Ich habe die",
+      "privacy2": "Datenschutzerklärung",
+      "privacy3": "gelesen und stimme der Verarbeitung meiner Daten gemäß den dort aufgeführten Bedingungen zu."
+      ,"sendmessage": "Absenden"
+
 }
+
+
