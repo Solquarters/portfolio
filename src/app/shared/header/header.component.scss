@@ -91,6 +91,7 @@ user-select: none;
 .navbarDivClass{
     user-select: none;
     display: flex;
+    align-items: center;
     gap: 32px;
     >a{
         color: white;
@@ -101,8 +102,17 @@ user-select: none;
         }
     }
     
+    >img{
+      cursor: pointer;
+      width:40px;
+      &:hover{
+        scale: 1.1;
+      }
+    }
 
 }
+
+
 
 .underline-link {
     position: relative;
@@ -216,6 +226,7 @@ user-select: none;
   .mobile-menu-links a:nth-child(2) { background-color: #1C293D}
   .mobile-menu-links a:nth-child(3) { background-color: #202F44}
   .mobile-menu-links a:nth-child(4) { background-color: #26364d}
+  .mobile-menu-links a:nth-child(5) { background-color: #334864; flex-direction: row; justify-content: center; gap: 48px}
  
   
   .mobile-menu a:hover {
@@ -269,11 +280,11 @@ user-select: none;
 
 /// 
 
-@media screen and (min-width: 621px) {
+@media screen and (min-width: 781px) {
     #menuToggle{display: none;}
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 780px) {
 .fixedDivClass{
     height: 80px;
 }

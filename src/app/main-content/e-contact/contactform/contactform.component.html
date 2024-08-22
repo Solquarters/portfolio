@@ -23,7 +23,7 @@
   required>
 
       @if (!nameModel.valid && nameModel.touched){
-        <span>Please enter a fullname.</span>
+        <span>{{"valid-name-request" | translate }}</span>
         }
 
 
@@ -40,7 +40,7 @@
       }"  required pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}">
 
       @if (!emailModel.valid && emailModel.touched){
-        <span>Please enter a valid email.</span>
+        <span>{{"valid-email-request" | translate }}</span>
         }
   
       <!-- <label for="message">Subject</label> -->
@@ -58,7 +58,7 @@
     </textarea>
   
         @if (!message.valid && message.touched){
-            <span>Please enter a message</span>
+            <span>{{"valid-message-request" | translate }}</span>
         }
 
         
@@ -73,7 +73,7 @@
           
         </div>
         <div *ngIf="!termsAccepted && contactForm.submitted">
-          <span>Please accept the privacy policy.</span>
+          <span>{{"privacy4" | translate }}</span>
         </div>
         
         <div style="display:flex; justify-content: center; width: 100%"><button type="submit" [disabled]="!contactForm.valid || !termsAccepted">{{"sendmessage" | translate }}</button></div>

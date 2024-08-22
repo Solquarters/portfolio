@@ -40,7 +40,14 @@
 
      "privacy2": "privacy policy",
      "privacy3": "and agree to the processing of my data as outlined.",
-     "sendmessage": "Send message"
+     "sendmessage": "Send message",
+     "valid-email-request": "Please enter a valid email.",
+     "valid-name-request": "Please enter a fullname.",
+    "valid-message-request":"Please enter a message." ,
+    "privacy4" : "Please accept the privacy policy.",
+    "successMessage": "Your message has been sent successfully!"
+    , "testMessage": "Sent test."
+
     
             
 }

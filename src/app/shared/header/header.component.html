@@ -16,8 +16,11 @@
                 <a href="#skills" class="underline-link">{{"skills" | translate }}</a>
                 <a href="#portfolio" class="underline-link">Portfolio</a>
              
-                <button (click)="translate.switchLanguage('en')">EN</button>
-                <button (click)="translate.switchLanguage('de')">DE</button>
+                <!-- <button (click)="translate.switchLanguage('en')">EN</button>
+                <button (click)="translate.switchLanguage('de')">DE</button> -->
+                <img src="../../../assets/img/german.png" alt="Deutsche Seite" (click)="translate.switchLanguage('de')" >
+                <img src="../../../assets/img/english.png" alt="English site" (click)="translate.switchLanguage('en')" >
+               
             </div>
 
             <div class="mainMobileMenuDiv">
@@ -29,8 +32,10 @@
                     <a href="#contact">Contact</a>
                     
                     
-                    <a > <button (click)="translate.switchLanguage('en')">EN</button>
-                        <button (click)="translate.switchLanguage('de')">DE</button></a>
+                    <a >
+                        <img src="../../../assets/img/german.png" alt="Deutsche Seite" (click)="translate.switchLanguage('de')" >
+                        <img src="../../../assets/img/english.png" alt="English site" (click)="translate.switchLanguage('en')" >
+                    </a>
                    
                   </div>
                   

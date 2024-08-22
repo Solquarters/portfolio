@@ -3,7 +3,7 @@
     "about me": "Über mich",
     "skills": "Skills",
     "i am": "Ich bin",
-    "talkbutton": "Lass uns reden :)",
+    "talkbutton": "Lass uns reden !",
     "About me": "Über mich",
     "about-text": "Willkommen auf meiner Seite. Ich bin ein deutschsprachiger zertifizierter Frontend-Entwickler aus der Nähe von Marburg. Mein Schwerpunkt liegt auf der Entwicklung von benutzer- und mobilfreundlichen Anwendungen. Es ist mir wichtig, stets mit den neuesten Technologien Schritt zu halten, dabei jedoch bewährte Praktiken und solide Grundprinzipien im Auge zu behalten, um Wartbarkeit, Skalierbarkeit und ein optimales Benutzererlebnis zu gewährleisten.",
     "about-p1":"Ich kann effektiv vor Ort in Marburg aber auch ortsunabhängig arbeiten.",
@@ -35,8 +35,13 @@
      "privacy1": "Ich habe die",
       "privacy2": "Datenschutzerklärung",
       "privacy3": "gelesen und stimme der Verarbeitung meiner Daten gemäß den dort aufgeführten Bedingungen zu."
-      ,"sendmessage": "Absenden"
-
+      ,"sendmessage": "Absenden",
+      "valid-email-request": "Bitte korrekte Email eingeben."
+,"valid-name-request": "Bitte vollständigen Namen eingeben."
+,"valid-message-request":"Bitte eine Nachricht eingeben." 
+,"privacy4" : "Bitte akzeptieren Sie die Datenschutzerklärung.",
+"successMessage": "Ihre Nachricht wurde erfolgreich gesendet!"
+, "testMessage": "Test gesendet."
 }
 
 
