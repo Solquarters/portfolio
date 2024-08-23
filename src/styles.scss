@@ -133,3 +133,14 @@ body{
 }
 
 
+
+
+
+
+//////Autofill bug prevention in chrome
+input:-webkit-autofill,
+textarea:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #141D2F inset !important;
+    box-shadow: 0 0 0px 1000px #141D2F inset !important;
+    -webkit-text-fill-color: #fff !important; /* Maintain the text color */
+}
