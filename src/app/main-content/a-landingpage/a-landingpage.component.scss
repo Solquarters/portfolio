@@ -30,16 +30,16 @@
 
 .backgroundDiv{
     position: absolute;
-    top: 40%;
-    
+    top:48%;
     width: 100%;
-    height: 100vh;
-
+    height: 50%;
+    top:48%;
+   
     z-index: 2;
 
     >img{
         width: 100%;
-        height: 50%;
+        height: 500px;
     }
 
     
@@ -244,24 +244,9 @@
 ///////////////////////MEDIA QUERIES
 
 @media screen and (min-width: 1691px) {
-    .motherDiv{
-      
-        // height: 90vh;
-    
-       
-    }
-    .backgroundDiv{
-      
-        top: 53%;
-     
-    }
-    
     .mainChild2DivClass{
-       
         padding: 80px 0px 0px 38px;
-        
     }
-
 }
 
 
@@ -324,14 +309,18 @@
         }
     }
 
-
+    .backgroundDiv{
+        position: absolute;
+        top:38%;}
 
 
   }
 
   @media screen and (max-width: 945px) {
 
-    
+    .backgroundDiv{
+        position: absolute;
+        top:36%;}
 
     .welcomeTextDivClass{
         margin: 8;
@@ -366,17 +355,30 @@
         }
     }
 
-    .backgroundDiv{
-      
-        top: 38%;
-     
-    }
-        
 
 
   }
 
+  @media screen and (max-width: 850px) {
+    .backgroundDiv{
+        position: absolute;
+        top:38%;
+        >img{
+            width: 100%;
+            height: 75%;
+        }
+    }
 
+
+       
+        
+           
+        
+            
+       
+
+  }
+  
 
 
 
@@ -391,15 +393,7 @@
 }
   }
 
-  .backgroundDiv{
-      
-    top: 40%;
-    >img{
-     
-        height: 30%;
-    }
- 
-}
+
     
 .welcomeTextDivClass{
     > div:nth-of-type(1){
@@ -412,28 +406,33 @@
 
 }
 
+
+
   }
 
 
+  @media screen and (max-width: 650px) {
+    .backgroundDiv{
+        position: absolute;
+        top:35%;}
 
+  }
+  @media screen and (max-width: 500px) {
+    .backgroundDiv{
+        position: absolute;
+        top:34%;}
+
+  }
 
 
 
 @media screen and (max-width: 420px) {
     .motherDiv{
         
-        padding: 60px 0px 0px 0px;
-        // background-position: 50% 50%;
+        padding: 80px 0px 0px 0px;
+        
     }
-    .backgroundDiv{
-      
-        top: 42%;
-        >img{
-         
-            height: 20%;
-        }
-     
-    }
+   
         
 
 
@@ -442,6 +441,10 @@
         left: -20px; 
 
       }
+
+      .backgroundDiv{
+        position: absolute;
+        top:31%;}
     
 }
 
@@ -493,17 +496,3 @@
 
 /////HEIGHT MEDIA QUERIES:
 
-@media screen and (max-height: 650px) {
-
-
-    .backgroundDiv{display: none;}
-}
-
-
-
-
-@media screen and (min-height: 1600px) {
-
-
-    .backgroundDiv{display: none;}
-}
