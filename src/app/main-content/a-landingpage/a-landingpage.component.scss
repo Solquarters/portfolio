@@ -496,3 +496,13 @@
 
 /////HEIGHT MEDIA QUERIES:
 
+@media screen and (min-height:  1441px) {
+.motherDiv{
+    min-height: unset;
+}
+.mainLandingPageDivClass{
+    min-height: 60vh;
+}
+
+
+}

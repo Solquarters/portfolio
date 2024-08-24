@@ -113,3 +113,16 @@ color: white;
 }
 
 
+
+
+
+
+
+
+/////////////////////////min HEIGHT
+@media screen and (min-height:  1441px) {
+    .motherContactDiv{
+        min-height: unset;
+        padding: 64px 0px 0px 0px;
+    }
+}

@@ -98,8 +98,7 @@
 }
 
 .divLineClass{
-    // position: relative;
-    // left: 200px;
+  
     width: 300px;
     height: 4px;
     background-color: #70E61C;
@@ -201,3 +200,16 @@
     }
 }
 
+
+
+
+/////////////////////////min HEIGHT
+@media screen and (min-height:  1441px) {
+    .aboutMeMotherDiv{
+        min-height: unset;
+        padding: 0px 0px 0px 0px;
+    }
+    
+    
+    
+    }
