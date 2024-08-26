@@ -66,9 +66,9 @@
           <p>{{ popupMessage }}</p>
         </div>
 
-        <div class="custom-checkbox" (click)="toggleTerms()" [class.checked]="termsAccepted">
-          <span class="checkbox-icon"></span>
-          <div>{{"privacy1" | translate }} &nbsp;<a href="/privacy-policy" style="color: #9747FF; text-decoration: none"> {{"privacy2" | translate }} </a>&nbsp; {{"privacy3" | translate }}</div>
+        <div class="custom-checkbox" [class.checked]="termsAccepted">
+          <span class="checkbox-icon" (click)="toggleTerms()" ></span>
+          <div>{{"privacy1" | translate }} &nbsp;<a routerLink="/privacy-policy" style="color: #9747FF; text-decoration: none"> {{"privacy2" | translate }} </a>&nbsp; {{"privacy3" | translate }}</div>
           
           
         </div>

@@ -8,17 +8,13 @@
 
         <div class="mainHeaderDivClass">
             <div class="nameLogoDivClass">
-                <a href="/"><p>R</p><p >o</p><p class="gradient-underline">m</p><p >a</p><p>N</p></a>
-                <!-- <p>R</p><p >o</p><p class="gradient-underline">m</p><p >a</p><p>N</p> -->
+                <a routerLink="/"><p>R</p><p >o</p><p class="gradient-underline">m</p><p >a</p><p>N</p></a>
             </div>
         
             <div class="navbarDivClass">
-                <a href="#about-me" class="underline-link">{{"about me" | translate }}</a>
-                <a href="#skills" class="underline-link">{{"skills" | translate }}</a>
-                <a href="#portfolio" class="underline-link">Portfolio</a>
-             
-                <!-- <button (click)="translate.switchLanguage('en')">EN</button>
-                <button (click)="translate.switchLanguage('de')">DE</button> -->
+                <a routerLink="/" fragment="about-me" class="underline-link">{{"about me" | translate }}</a>
+                <a routerLink="/" fragment="skills" class="underline-link">{{"skills" | translate }}</a>
+                <a routerLink="/" fragment="portfolio" class="underline-link">Portfolio</a>
                 <img src="../../../assets/img/german.png" alt="Deutsche Seite" (click)="translate.switchLanguage('de')" >
                 <img src="../../../assets/img/english.png" alt="English site" (click)="translate.switchLanguage('en')" >
                
@@ -27,10 +23,10 @@
             <div class="mainMobileMenuDiv">
                 <div class="mobile-menu-links" id="mobiledropdown" *ngIf="this.isMenuActive" (click)="toggleMenu()" [class.active]="isMenuActive">
                 
-                    <a href="#about-me">About me</a>
-                    <a href="#skills">Skills</a>
-                    <a href="#portfolio" >Portfolio</a>
-                    <a href="#contact">Contact</a>
+                    <a routerLink="/" fragment="about-me">About me</a>
+                    <a routerLink="/" fragment="skills">Skills</a>
+                    <a routerLink="/" fragment="portfolio" >Portfolio</a>
+                    <a routerLink="/" fragment="contact" >Contact</a>
                     
                     
                     <a >

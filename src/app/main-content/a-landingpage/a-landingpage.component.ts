@@ -3,11 +3,12 @@ import { TranslationService } from '../../translation.service';
 
   import { TranslateModule } from '@ngx-translate/core';
 import { NgStyle } from '@angular/common';
+import { RouterModule, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-a-landingpage',
   standalone: true,
-  imports: [TranslateModule, NgStyle],
+  imports: [TranslateModule, NgStyle, RouterModule, RouterOutlet],
   templateUrl: './a-landingpage.component.html',
   styleUrl: './a-landingpage.component.scss'
 })

@@ -4,11 +4,15 @@ import { Component, inject } from '@angular/core';
 import { TranslationService } from '../../../translation.service';
 import { FormsModule, NgForm} from '@angular/forms';
 import { TranslateModule } from '@ngx-translate/core';
+import { RouterLink, RouterOutlet } from '@angular/router';
+
+
+
 
 @Component({
   selector: 'app-contactform',
   standalone: true,
-  imports: [FormsModule, CommonModule, TranslateModule],
+  imports: [FormsModule, CommonModule, TranslateModule, RouterLink, RouterOutlet],
   templateUrl: './contactform.component.html',
   styleUrl: './contactform.component.scss'
 })
@@ -48,24 +52,6 @@ toggleTerms() {
   this.termsAccepted = !this.termsAccepted;
 }
 
-// onSubmit(ngForm: NgForm) {
-//   if (ngForm.submitted && ngForm.form.valid && !this.mailTest) {
-//     this.http.post(this.post.endPoint, this.post.body(this.contactData))
-//       .subscribe({
-//         next: (response) => {
-//           ngForm.resetForm();
-//           this.showPopup('Your message has been sent successfully!');
-//         },
-//         error: (error) => {
-//           console.error(error);
-//         },
-//         complete: () => console.info('send post complete'),
-//       });
-//   } else if (ngForm.submitted && ngForm.form.valid && this.mailTest) {
-//     ngForm.resetForm();
-//     this.showPopup('Test message sent successfully!');
-//   }
-// }
 onSubmit(ngForm: NgForm) {
   if (ngForm.submitted && ngForm.form.valid && !this.mailTest) {
     this.http.post(this.post.endPoint, this.post.body(this.contactData))
@@ -73,6 +59,7 @@ onSubmit(ngForm: NgForm) {
         next: (response) => {
           ngForm.resetForm();
           this.showPopup(this.translate.instant('successMessage'));
+          this.termsAccepted = !this.termsAccepted;
         },
         error: (error) => {
           console.error(error);
