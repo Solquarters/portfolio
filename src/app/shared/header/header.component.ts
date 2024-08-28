@@ -8,22 +8,16 @@ import { RouterLink, RouterOutlet } from '@angular/router';
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [ CommonModule, TranslateModule, RouterOutlet, RouterLink],
+  imports: [CommonModule, TranslateModule, RouterOutlet, RouterLink],
   templateUrl: './header.component.html',
-  styleUrl: './header.component.scss'
+  styleUrl: './header.component.scss',
 })
 export class HeaderComponent {
-
-
   isMenuActive = false;
 
   toggleMenu() {
     this.isMenuActive = !this.isMenuActive;
   }
 
-
   translate = inject(TranslationService);
-
-
-
 }
