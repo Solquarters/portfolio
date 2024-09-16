@@ -38,7 +38,7 @@ export class DPortfolioComponent {
       toolsUsed: "JavaScript | HTML | CSS | Firebase",
       description: "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.",
       descriptionKey: this.translate.instant("portfolio.project1.description"),
-      liveTestUrl: "https://join.roman-kabucov.de/03board.html",
+      liveTestUrl: "https://join.roman-kabucov.de/07logIn.html",
       githubLink: "https://github.com/Solquarters/Join_Gruppe3",
       imgSource: "../../../assets/img/portfolio screenshots/joinlaptoppng.png",
     },
