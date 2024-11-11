@@ -19,7 +19,7 @@
      "myskills-btn":"Get in touch",
      "portfolio-p1": "Explore a selection of my work here - Interact with projects to see my skills in action.",
 
-"portfolio.project01.description":"CRM System with interactive data visualization, license key generation and realtime firebase intergration.",
+"portfolio.project01.description":"CRM System with interactive data visualization, Wikimedia API geodata fetching, license key generation and realtime firebase intergration.",
 "portfolio.project1.description": "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.",
      "portfolio.project2.description": "Working with collision detection and image based animations. Jump, run and throw game based on an object-oriented approach. Help Pepe to find coins and tabasco salsa to fight against the crazy hen.",
      "portfolio.project3.description": "Fetching and visualizing API Data in a user friendly manner. Based on the PokéAPI a simple library that provides and catalogues pokemon information including an evolution tree and individual stats.",

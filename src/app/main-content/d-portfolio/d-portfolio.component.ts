@@ -35,8 +35,8 @@ export class DPortfolioComponent {
   projects =  [
     {
       name: "Simple CRM",
-      toolsUsed: "TypeScript | Angular| Firebase | D3",
-      description: "CRM System with interactive data visualization, license key generation and realtime firebase intergration.",
+      toolsUsed: "TypeScript | Angular | Firebase | D3 | API",
+      description: "CRM System with interactive data visualization, Wikimedia API geodata fetching, license key generation and realtime firebase intergration.",
       descriptionKey: this.translate.instant("portfolio.project01.description"),
       liveTestUrl: "https://simplecrm.roman-kabucov.de/",
       githubLink: "https://github.com/Solquarters/2024_10_01_simple-crm.git",
