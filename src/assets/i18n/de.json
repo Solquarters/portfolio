@@ -20,6 +20,8 @@
 
      "portfolio.project01.description":"Ein übersichtliches Kundenbeziehungsmanagement-System mit interaktiver Datenvisualisierung, inklusive Wikimedia API Geodaten Abfragen, einer Lizenz-Generierung und Echtzeit-Datenbankintegration mit Firebase.",
      "portfolio-p1": "Hier können Sie eine Auswahl meiner Arbeiten erkunden - interagieren Sie mit den Projekten, um meine Fähigkeiten in Aktion zu sehen.",
+     
+     "portfolio.project00.description":"DABubble ist ein voll funktionsfähiger und responsiver Chat-Messenger, ähnlich wie Discord oder Slack, mit Echtzeit-Datenanzeige und Authentifizierung. Er wurde von einem Team aus drei Personen entwickelt. Lade Bilder hoch, erstelle Kanäle oder sende private Nachrichten.",
      "portfolio.project1.description": "Ein Aufgabenmanager, inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mithilfe von Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu.",
      "portfolio.project2.description": "Arbeiten mit Kollisionserkennung und bildbasierten Animationen. Ein Jump'n'Run-Spiel basierend auf Objektorientierung. Hilf Pepe, Münzen und Tabasco-Salsa zu finden, um gegen das verrückte Huhn zu kämpfen.",
      "portfolio.project3.description": "Abrufen und Visualisieren von API-Daten über ein benutzerfreundliches Interface. Basierend auf der PokéAPI, eine einfache Bibliothek, die Pokémon-Informationen einschließlich eines Evolutionsbaums und individueller Statistiken bereitstellt und katalogisiert.",
@@ -28,7 +30,8 @@
      "portfolio.project6.description": "Diese mobile App dient als unterstützendes Werkzeug und hilft Musikschülern, Musiknotation jederzeit und überall auf mobilen Geräten zu lernen, um stetiges Wachstum zu fördern.",
     "reference1": "\"Der Roman ist super cool drauf und ist immer sehr nett. Ich war in zwei Gruppenprojekten mit ihm beteiligt. Jedes Mal, wenn ich etwas nicht wusste und Fragen hatte, war Roman immer für mich da und hat mir alles sehr ausführlich erklärt und gezeigt, so habe ich sehr viel von ihm gelernt. Egal welche Probleme man hatte, Roman hat es innerhalb einer kurzen Zeit gelöst!\"",
      "reference2": "\"Roman ist eine äußerst zuverlässige und lösungsorientierte Person. Er zeichnet sich durch Ruhe in kritischen Situationen aus. Er ist stets motiviert und engagiert. Die Zusammenarbeit mit ihm macht großen Spaß, . Roman kann stundenlang fokussiert arbeiten und ist dabei immer hilfsbereit. Seine Unterstützung und sein Einsatz sind von unschätzbarem Wert.\"",
-      "contact-h1": "Kontakt",
+     "reference3": "\"Durch seine strukturierte Herangehensweise und sorgfältige Planung konnte Roman unserem Projekt eine solide Architektur verleihen. Diese hat er durch hervorragend durchdachte und umgesetzte Softwarelösungen erfolgreich im Projekt implementiert.\"", 
+     "contact-h1": "Kontakt",
       "contact-h2":" Haben Sie ein Problem, das gelöst werden muss?",
       "contact-p1":"Kontaktieren Sie mich über dieses Formular. Ich freue mich darauf, von Ihnen zu hören, Ihre Projekte kennenzulernen und mit meiner Arbeit dazu beizutragen."
      ,"yourname": "Ihr Name",

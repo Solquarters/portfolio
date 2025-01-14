@@ -34,6 +34,15 @@ export class DPortfolioComponent {
 
   projects =  [
     {
+      name: "DABubble",
+      toolsUsed: "TypeScript | Angular | Firebase | RxJS",
+      description: "DABubble is a fully functional and responsive chat messenger similar to Discord or Slack, featuring real-time data displaying and authentication. It was developed by a team of three. Upload images, create channels or send private messages.",
+      descriptionKey: this.translate.instant("portfolio.project00.description"),
+      liveTestUrl: "https://dabubble.roman-kabucov.de/",
+      githubLink: "https://github.com/Solquarters/DABubbleGroup.git",
+      imgSource: "../../../assets/img/portfolio screenshots/dabubblewithlaptop.png",
+    },
+    {
       name: "Simple CRM",
       toolsUsed: "TypeScript | Angular | Firebase | D3 | API",
       description: "CRM System with interactive data visualization, Wikimedia API geodata fetching, license key generation and realtime firebase intergration.",

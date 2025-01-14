@@ -75,11 +75,11 @@ export class ReferencesComponent {
   
   slides = [
     { 
-      textKey: this.translate.instant("reference1"),
-      text: "\"Roman is super cool and always very nice. In both group projects we've had together so far, whenever I didn't know something, he was there for me and explained and showed everything to me in great detail. I've learned a lot from Roman. No matter what problems you had, Roman solved them in a short amount of time.\"", 
-      author: "Oleg Wenner - Join Team Partner", 
-      image: '../../../assets/img/portfolio screenshots/openapiprojectlaptoppng.png', 
-      alt: 'Oleg Wenner - Join Team Partner' 
+      textKey: this.translate.instant("reference3"),
+      text: "\"Through his structured approach and careful planning, Roman was able to provide our project with a solid architecture. He successfully implemented this with excellently designed and executed software solutions.\"", 
+      author: "Mike Schauber - DABubble Team Partner", 
+      image: '../../../assets/img/mike_schauber_no_bg2.png', 
+      alt: 'Mike Schauber - DABubble Team Partner' 
     },
     { 
       textKey: this.translate.instant("reference2"),
@@ -87,7 +87,16 @@ export class ReferencesComponent {
       author: "Maurice Preißler - Join Team Partner", 
       image: '../../../assets/img/mauriceFeedback.png', 
       alt: 'Maurice Preißler - Join Team Partner' 
-    }
+    },
+    { 
+      textKey: this.translate.instant("reference1"),
+      text: "\"Roman is super cool and always very nice. In both group projects we've had together so far, whenever I didn't know something, he was there for me and explained and showed everything to me in great detail. I've learned a lot from Roman. No matter what problems you had, Roman solved them in a short amount of time.\"", 
+      author: "Oleg Wenner - Join Team Partner", 
+      image: '../../../assets/img/portfolio screenshots/openapiprojectlaptoppng.png', 
+      alt: 'Oleg Wenner - Join Team Partner' 
+    },
+    
+    
   ];
 
 }
